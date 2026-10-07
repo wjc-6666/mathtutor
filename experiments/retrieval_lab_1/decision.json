@@ -1,0 +1,111 @@
+{
+  "quality_winner_raw": {
+    "name": "qwen-D2",
+    "rule": "Recall@50 then MRR@50 point estimates"
+  },
+  "quality_winner_fixed_pool": {
+    "name": "e5-small-bge-reranker",
+    "rule": "Recall@10 then MRR@10 point estimates; tested combinations only"
+  },
+  "efficiency_winner": "e5-small + current rules (fastest/smallest embedding; E5-base has lower measured index-process peak RAM, so no claim of minimum on every resource)",
+  "balanced_winner": "keep unchanged production V1.2; no experimental replacement recommended",
+  "No_Upgrade": true,
+  "passes_all_measured_gates": [],
+  "route_gate_results": {
+    "bge-m3-current": {
+      "reference": "e5-small-current, fixed-pool route compatibility only",
+      "checks": {
+        "Paraphrase_R10_at_least_10pp_gain": false,
+        "Relation_R10_at_least_10pp_gain": true,
+        "overall_no_drop_over_2pp": true,
+        "Exact_not_lower": false,
+        "two_core_metrics_improve": false,
+        "P95_within_frozen_3s_budget": true,
+        "repeat_stable": true,
+        "no_math_rule_or_alias_tuning": true
+      },
+      "passes_measured_gates": false,
+      "scope": "OCR-limited slices remain separate and no gain from those cases is used to justify promotion; actual full hybrid with replacement models was not tested."
+    },
+    "e5-small-bge-reranker": {
+      "reference": "e5-small-current, fixed-pool route compatibility only",
+      "checks": {
+        "Paraphrase_R10_at_least_10pp_gain": true,
+        "Relation_R10_at_least_10pp_gain": true,
+        "overall_no_drop_over_2pp": true,
+        "Exact_not_lower": true,
+        "two_core_metrics_improve": true,
+        "P95_within_frozen_3s_budget": false,
+        "repeat_stable": true,
+        "no_math_rule_or_alias_tuning": true
+      },
+      "passes_measured_gates": false,
+      "scope": "OCR-limited slices remain separate and no gain from those cases is used to justify promotion; actual full hybrid with replacement models was not tested."
+    },
+    "e5-small-current": {
+      "reference": "e5-small-current, fixed-pool route compatibility only",
+      "checks": {
+        "Paraphrase_R10_at_least_10pp_gain": false,
+        "Relation_R10_at_least_10pp_gain": false,
+        "overall_no_drop_over_2pp": true,
+        "Exact_not_lower": true,
+        "two_core_metrics_improve": false,
+        "P95_within_frozen_3s_budget": true,
+        "repeat_stable": true,
+        "no_math_rule_or_alias_tuning": true
+      },
+      "passes_measured_gates": false,
+      "scope": "OCR-limited slices remain separate and no gain from those cases is used to justify promotion; actual full hybrid with replacement models was not tested."
+    },
+    "qwen-D1-bge-reranker": {
+      "reference": "e5-small-current, fixed-pool route compatibility only",
+      "checks": {
+        "Paraphrase_R10_at_least_10pp_gain": false,
+        "Relation_R10_at_least_10pp_gain": true,
+        "overall_no_drop_over_2pp": true,
+        "Exact_not_lower": false,
+        "two_core_metrics_improve": true,
+        "P95_within_frozen_3s_budget": false,
+        "repeat_stable": true,
+        "no_math_rule_or_alias_tuning": true
+      },
+      "passes_measured_gates": false,
+      "scope": "OCR-limited slices remain separate and no gain from those cases is used to justify promotion; actual full hybrid with replacement models was not tested."
+    },
+    "qwen-D1-current": {
+      "reference": "e5-small-current, fixed-pool route compatibility only",
+      "checks": {
+        "Paraphrase_R10_at_least_10pp_gain": false,
+        "Relation_R10_at_least_10pp_gain": true,
+        "overall_no_drop_over_2pp": true,
+        "Exact_not_lower": false,
+        "two_core_metrics_improve": false,
+        "P95_within_frozen_3s_budget": true,
+        "repeat_stable": true,
+        "no_math_rule_or_alias_tuning": true
+      },
+      "passes_measured_gates": false,
+      "scope": "OCR-limited slices remain separate and no gain from those cases is used to justify promotion; actual full hybrid with replacement models was not tested."
+    },
+    "qwen-D2-current": {
+      "reference": "e5-small-current, fixed-pool route compatibility only",
+      "checks": {
+        "Paraphrase_R10_at_least_10pp_gain": false,
+        "Relation_R10_at_least_10pp_gain": true,
+        "overall_no_drop_over_2pp": true,
+        "Exact_not_lower": false,
+        "two_core_metrics_improve": false,
+        "P95_within_frozen_3s_budget": true,
+        "repeat_stable": true,
+        "no_math_rule_or_alias_tuning": true
+      },
+      "passes_measured_gates": false,
+      "scope": "OCR-limited slices remain separate and no gain from those cases is used to justify promotion; actual full hybrid with replacement models was not tested."
+    }
+  },
+  "main_bottleneck": "Mathematical query/passage representation and alignment; damaged OCR formulas are a directly observed subset. Sorting is a measurable secondary bottleneck. No exclusive causal separation without clean-text/query-rewrite counterfactuals.",
+  "active_changed": false,
+  "V121_promoted": false,
+  "test_result": "........................................................................ [ 78%]\n....................                                                     [100%]\n============================== warnings summary ===============================\n.venv\\Lib\\site-packages\\fastapi\\testclient.py:1\n  C:\\Users\\王景初\\Desktop\\MathTutor\\.venv\\Lib\\site-packages\\fastapi\\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n92 passed, 1 warning in 6.42s\n",
+  "next_step": "Small independently frozen clean formula/structure representation and query-understanding comparison; no more model swapping by default; retain exact/lexical route; Test C is now development for future work."
+}

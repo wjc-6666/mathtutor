@@ -1,0 +1,39 @@
+LOADED e5-base cold 0.99 {'rss_bytes': 631513088, 'peak_rss_bytes': 648478720, 'private_bytes': 1116655616}
+INDEX e5-base 8 / 3800 seconds 1.4
+INDEX e5-base 264 / 3800 seconds 27.6
+INDEX e5-base 520 / 3800 seconds 55.8
+INDEX e5-base 776 / 3800 seconds 83.7
+INDEX e5-base 1032 / 3800 seconds 109.6
+INDEX e5-base 1288 / 3800 seconds 138.2
+INDEX e5-base 1544 / 3800 seconds 164.8
+INDEX e5-base 1800 / 3800 seconds 191.2
+INDEX e5-base 2056 / 3800 seconds 216.8
+INDEX e5-base 2312 / 3800 seconds 243.4
+INDEX e5-base 2568 / 3800 seconds 269.8
+INDEX e5-base 2824 / 3800 seconds 297.3
+INDEX e5-base 3080 / 3800 seconds 325.6
+INDEX e5-base 3336 / 3800 seconds 354.6
+INDEX e5-base 3592 / 3800 seconds 379.7
+INDEX e5-base 3800 / 3800 seconds 401.0
+QUERY e5-base development_a 1 / 35
+QUERY e5-base development_a 11 / 35
+QUERY e5-base development_a 21 / 35
+QUERY e5-base development_a 31 / 35
+DONE e5-base development_a {'n': 35, 'Hit@1': 0.142857, 'Recall@5': 0.357143, 'Recall@10': 0.414286, 'Recall@20': 0.485714, 'Recall@50': 0.614286, 'MRR@10': 0.241032, 'MRR@50': 0.250009, 'nDCG@10': 0.280085, 'failure_classes': {'Recall Failure': 13, 'Success': 13, 'Ranking Opportunity': 7, 'Near Success': 2}}
+QUERY e5-base development_b 1 / 70
+QUERY e5-base development_b 11 / 70
+QUERY e5-base development_b 21 / 70
+QUERY e5-base development_b 31 / 70
+QUERY e5-base development_b 41 / 70
+QUERY e5-base development_b 51 / 70
+QUERY e5-base development_b 61 / 70
+DONE e5-base development_b {'n': 70, 'Hit@1': 0.157143, 'Recall@5': 0.271429, 'Recall@10': 0.285714, 'Recall@20': 0.335714, 'Recall@50': 0.428571, 'MRR@10': 0.199683, 'MRR@50': 0.207449, 'nDCG@10': 0.215602, 'failure_classes': {'Recall Failure': 38, 'Ranking Opportunity': 11, 'Success': 20, 'Near Success': 1}}
+QUERY e5-base test_c 1 / 80
+QUERY e5-base test_c 11 / 80
+QUERY e5-base test_c 21 / 80
+QUERY e5-base test_c 31 / 80
+QUERY e5-base test_c 41 / 80
+QUERY e5-base test_c 51 / 80
+QUERY e5-base test_c 61 / 80
+QUERY e5-base test_c 71 / 80
+DONE e5-base test_c {'n': 80, 'Hit@1': 0.1375, 'Recall@5': 0.3375, 'Recall@10': 0.4125, 'Recall@20': 0.4875, 'Recall@50': 0.55, 'MRR@10': 0.223333, 'MRR@50': 0.230176, 'nDCG@10': 0.268754, 'failure_classes': {'Recall Failure': 36, 'Near Success': 6, 'Success': 27, 'Ranking Opportunity': 11}}

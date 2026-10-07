@@ -1,0 +1,17 @@
+RERANK bge-m3 current 1 / 80 query_ms 505
+RERANK bge-m3 current 6 / 80 query_ms 461
+RERANK bge-m3 current 11 / 80 query_ms 464
+RERANK bge-m3 current 16 / 80 query_ms 411
+RERANK bge-m3 current 21 / 80 query_ms 361
+RERANK bge-m3 current 26 / 80 query_ms 400
+RERANK bge-m3 current 31 / 80 query_ms 376
+RERANK bge-m3 current 36 / 80 query_ms 399
+RERANK bge-m3 current 41 / 80 query_ms 479
+RERANK bge-m3 current 46 / 80 query_ms 379
+RERANK bge-m3 current 51 / 80 query_ms 396
+RERANK bge-m3 current 56 / 80 query_ms 393
+RERANK bge-m3 current 61 / 80 query_ms 404
+RERANK bge-m3 current 66 / 80 query_ms 377
+RERANK bge-m3 current 71 / 80 query_ms 493
+RERANK bge-m3 current 76 / 80 query_ms 466
+DONE bge-m3 current {'n': 80, 'Hit@1': 0.275, 'Recall@5': 0.425, 'Recall@10': 0.525, 'Recall@20': 0.55, 'Recall@50': 0.6125, 'MRR@10': 0.343591, 'MRR@50': 0.347461, 'nDCG@10': 0.386117, 'failure_classes': {'Recall Failure': 31, 'Success': 34, 'Near Success': 8, 'Ranking Opportunity': 7}}

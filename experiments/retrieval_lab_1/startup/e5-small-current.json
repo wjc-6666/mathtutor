@@ -1,0 +1,17 @@
+{
+  "route": "e5-small-current",
+  "cold_components_after_import_seconds": 1.801372299902141,
+  "models_co_resident": true,
+  "OS_file_cache_flushed": false,
+  "scope": "model hash/tokenizer/ORT + index/corpus + current adapter or neural model; generic full-budget warm inputs; not web-server boot, not Test C query timing",
+  "after_load": {
+    "rss_bytes": 813924352,
+    "peak_rss_bytes": 822743040,
+    "private_bytes": 1303281664
+  },
+  "after_generic_warmup": {
+    "rss_bytes": 832598016,
+    "peak_rss_bytes": 833748992,
+    "private_bytes": 1324302336
+  }
+}

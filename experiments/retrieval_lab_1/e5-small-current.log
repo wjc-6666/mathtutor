@@ -1,0 +1,17 @@
+RERANK e5-small current 1 / 80 query_ms 540
+RERANK e5-small current 6 / 80 query_ms 469
+RERANK e5-small current 11 / 80 query_ms 440
+RERANK e5-small current 16 / 80 query_ms 355
+RERANK e5-small current 21 / 80 query_ms 361
+RERANK e5-small current 26 / 80 query_ms 363
+RERANK e5-small current 31 / 80 query_ms 364
+RERANK e5-small current 36 / 80 query_ms 380
+RERANK e5-small current 41 / 80 query_ms 448
+RERANK e5-small current 46 / 80 query_ms 354
+RERANK e5-small current 51 / 80 query_ms 354
+RERANK e5-small current 56 / 80 query_ms 373
+RERANK e5-small current 61 / 80 query_ms 371
+RERANK e5-small current 66 / 80 query_ms 357
+RERANK e5-small current 71 / 80 query_ms 497
+RERANK e5-small current 76 / 80 query_ms 443
+DONE e5-small current {'n': 80, 'Hit@1': 0.325, 'Recall@5': 0.45, 'Recall@10': 0.4875, 'Recall@20': 0.55, 'Recall@50': 0.6, 'MRR@10': 0.375119, 'MRR@50': 0.380758, 'nDCG@10': 0.402334, 'failure_classes': {'Recall Failure': 32, 'Success': 36, 'Near Success': 3, 'Ranking Opportunity': 9}}

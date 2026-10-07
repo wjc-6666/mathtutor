@@ -1,0 +1,54 @@
+LOADED bge-m3 cold 1.78 {'rss_bytes': 930127872, 'peak_rss_bytes': 947027968, 'private_bytes': 1416024064}
+INDEX bge-m3 4 / 3800 seconds 2.1
+INDEX bge-m3 132 / 3800 seconds 36.2
+INDEX bge-m3 260 / 3800 seconds 76.2
+INDEX bge-m3 388 / 3800 seconds 114.0
+INDEX bge-m3 516 / 3800 seconds 154.9
+INDEX bge-m3 644 / 3800 seconds 192.6
+INDEX bge-m3 772 / 3800 seconds 232.1
+INDEX bge-m3 900 / 3800 seconds 271.0
+INDEX bge-m3 1028 / 3800 seconds 310.8
+INDEX bge-m3 1156 / 3800 seconds 351.2
+INDEX bge-m3 1284 / 3800 seconds 392.9
+INDEX bge-m3 1412 / 3800 seconds 430.9
+INDEX bge-m3 1540 / 3800 seconds 469.5
+INDEX bge-m3 1668 / 3800 seconds 510.2
+INDEX bge-m3 1796 / 3800 seconds 551.8
+INDEX bge-m3 1924 / 3800 seconds 592.5
+INDEX bge-m3 2052 / 3800 seconds 630.7
+INDEX bge-m3 2180 / 3800 seconds 671.0
+INDEX bge-m3 2308 / 3800 seconds 715.3
+INDEX bge-m3 2436 / 3800 seconds 757.0
+INDEX bge-m3 2564 / 3800 seconds 792.2
+INDEX bge-m3 2692 / 3800 seconds 834.0
+INDEX bge-m3 2820 / 3800 seconds 878.6
+INDEX bge-m3 2948 / 3800 seconds 922.0
+INDEX bge-m3 3076 / 3800 seconds 964.3
+INDEX bge-m3 3204 / 3800 seconds 1011.2
+INDEX bge-m3 3332 / 3800 seconds 1054.9
+INDEX bge-m3 3460 / 3800 seconds 1095.9
+INDEX bge-m3 3588 / 3800 seconds 1139.6
+INDEX bge-m3 3716 / 3800 seconds 1181.8
+INDEX bge-m3 3800 / 3800 seconds 1210.8
+QUERY bge-m3 development_a 1 / 35
+QUERY bge-m3 development_a 11 / 35
+QUERY bge-m3 development_a 21 / 35
+QUERY bge-m3 development_a 31 / 35
+DONE bge-m3 development_a {'n': 35, 'Hit@1': 0.228571, 'Recall@5': 0.4, 'Recall@10': 0.471429, 'Recall@20': 0.657143, 'Recall@50': 0.757143, 'MRR@10': 0.308163, 'MRR@50': 0.32208, 'nDCG@10': 0.346812, 'failure_classes': {'Recall Failure': 8, 'Ranking Opportunity': 10, 'Success': 14, 'Near Success': 3}}
+QUERY bge-m3 development_b 1 / 70
+QUERY bge-m3 development_b 11 / 70
+QUERY bge-m3 development_b 21 / 70
+QUERY bge-m3 development_b 31 / 70
+QUERY bge-m3 development_b 41 / 70
+QUERY bge-m3 development_b 51 / 70
+QUERY bge-m3 development_b 61 / 70
+DONE bge-m3 development_b {'n': 70, 'Hit@1': 0.142857, 'Recall@5': 0.235714, 'Recall@10': 0.307143, 'Recall@20': 0.342857, 'Recall@50': 0.442857, 'MRR@10': 0.206485, 'MRR@50': 0.21177, 'nDCG@10': 0.221895, 'failure_classes': {'Recall Failure': 37, 'Success': 18, 'Ranking Opportunity': 9, 'Near Success': 6}}
+QUERY bge-m3 test_c 1 / 80
+QUERY bge-m3 test_c 11 / 80
+QUERY bge-m3 test_c 21 / 80
+QUERY bge-m3 test_c 31 / 80
+QUERY bge-m3 test_c 41 / 80
+QUERY bge-m3 test_c 51 / 80
+QUERY bge-m3 test_c 61 / 80
+QUERY bge-m3 test_c 71 / 80
+DONE bge-m3 test_c {'n': 80, 'Hit@1': 0.2625, 'Recall@5': 0.375, 'Recall@10': 0.4625, 'Recall@20': 0.525, 'Recall@50': 0.6125, 'MRR@10': 0.317257, 'MRR@50': 0.324316, 'nDCG@10': 0.351164, 'failure_classes': {'Recall Failure': 31, 'Success': 30, 'Near Success': 7, 'Ranking Opportunity': 12}}

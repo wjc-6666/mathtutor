@@ -1,0 +1,68 @@
+[
+  {
+    "repo": "BAAI/bge-m3",
+    "observed_current_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "declared_license": "mit",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "BAAI/bge-reranker-v2-m3",
+    "observed_current_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "declared_license": "apache-2.0",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "Qwen/Qwen3-Embedding-0.6B",
+    "observed_current_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+    "declared_license": "apache-2.0",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "Qwen/Qwen3-Reranker-0.6B",
+    "observed_current_revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "declared_license": "apache-2.0",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "Xenova/bge-m3",
+    "observed_current_revision": "4de13258303883538bd53b696b452bf8099f0858",
+    "declared_license": "mit",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "Xenova/multilingual-e5-base",
+    "observed_current_revision": "1ec9243030a27d1a115d5c340572074c125b58b2",
+    "declared_license": null,
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "intfloat/multilingual-e5-base",
+    "observed_current_revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+    "declared_license": "mit",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "intfloat/multilingual-e5-small",
+    "observed_current_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "declared_license": "mit",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "onnx-community/Qwen3-Embedding-0.6B-ONNX",
+    "observed_current_revision": "c25a394dd583836952667c12f008335071b3f43d",
+    "declared_license": null,
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "onnx-community/Qwen3-Reranker-0.6B-ONNX",
+    "observed_current_revision": "9995c50e2310679108a55f5ccd16ba8be9f17c20",
+    "declared_license": "apache-2.0",
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  },
+  {
+    "repo": "onnx-community/bge-reranker-v2-m3-ONNX",
+    "observed_current_revision": "6f5ff65298512715a1e669753bc754d2bc8f367b",
+    "declared_license": null,
+    "conversion_base_revision": "not documented here; current upstream revision is NOT asserted to be converter base revision"
+  }
+]

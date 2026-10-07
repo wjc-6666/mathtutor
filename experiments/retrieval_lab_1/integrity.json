@@ -1,0 +1,35 @@
+{
+  "created_at": 1790959393.0315745,
+  "protected_files": 1862,
+  "changed": [],
+  "table_counts": {
+    "documents": 3,
+    "chunks": 3471,
+    "chats": 6,
+    "messages": 16
+  },
+  "test_c_unchanged": true,
+  "test_c_sha256": "359f8d4220cd6a9bd83560e91df67389f776068d13a8b7b8cbffdb8aec8c5667",
+  "running_server_status": {
+    "INDEX_VERSION": "math-v12.1",
+    "generation": "20261002-183158-52abc2",
+    "source_signature": "fadbf234a51ee1166c7ea50a2abfb3359d29cc3cefc9d027c80b3f5e00aea1d3",
+    "created_at": 1790937118.2040424,
+    "source_chunks": 3471,
+    "records": 3800,
+    "semantic_available": true,
+    "embedding": "e5-int8:761b726dd34fb83930e26aab4e9ac3899aa1fa78:mean-pool:384tokens:v1",
+    "semantic_representation": "ocr-prose-and-explicit-metadata-v2",
+    "embedding_seconds": 134.984,
+    "dimensions": 384,
+    "active_version": "v12",
+    "fallback_reason": null,
+    "v121_fallback_reason": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\王景初\\\\Desktop\\\\MathTutor\\\\data\\\\index\\\\v121\\\\active.json'"
+  },
+  "v12_active_sha256": "d9e71e6de2e74dbccc9c5eaf5a749d82af3c0b1f4dad6bab5f4534d821b75cec",
+  "v121_active_pointer_exists": false,
+  "experiments_only": true,
+  "no_paid_api": true,
+  "no_OCR": true,
+  "original_models_and_indexes_hashed": true
+}

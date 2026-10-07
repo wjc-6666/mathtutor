@@ -1,0 +1,1 @@
+{"status": "stopped_before_Test_C_scoring", "reason": "generic 384-token CPU probe estimates >90min per full repeated 80x50 pool experiment", "estimated_seconds": 13945.23200020194}

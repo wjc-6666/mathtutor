@@ -1,0 +1,17 @@
+RERANK qwen-D1 current 1 / 80 query_ms 469
+RERANK qwen-D1 current 6 / 80 query_ms 491
+RERANK qwen-D1 current 11 / 80 query_ms 451
+RERANK qwen-D1 current 16 / 80 query_ms 386
+RERANK qwen-D1 current 21 / 80 query_ms 374
+RERANK qwen-D1 current 26 / 80 query_ms 420
+RERANK qwen-D1 current 31 / 80 query_ms 428
+RERANK qwen-D1 current 36 / 80 query_ms 367
+RERANK qwen-D1 current 41 / 80 query_ms 451
+RERANK qwen-D1 current 46 / 80 query_ms 354
+RERANK qwen-D1 current 51 / 80 query_ms 349
+RERANK qwen-D1 current 56 / 80 query_ms 361
+RERANK qwen-D1 current 61 / 80 query_ms 370
+RERANK qwen-D1 current 66 / 80 query_ms 361
+RERANK qwen-D1 current 71 / 80 query_ms 477
+RERANK qwen-D1 current 76 / 80 query_ms 444
+DONE qwen-D1 current {'n': 80, 'Hit@1': 0.3125, 'Recall@5': 0.425, 'Recall@10': 0.5375, 'Recall@20': 0.575, 'Recall@50': 0.65, 'MRR@10': 0.367445, 'MRR@50': 0.372231, 'nDCG@10': 0.406874, 'failure_classes': {'Recall Failure': 28, 'Success': 34, 'Near Success': 9, 'Ranking Opportunity': 9}}

@@ -1,0 +1,7 @@
+{
+  "processor": "13th Gen Intel(R) Core(TM) i7-1360P",
+  "logical_processors": 16,
+  "physical_memory_bytes": 16890716160,
+  "free_physical_memory_kib": 2541296,
+  "disk_free_bytes": 38611152896
+}

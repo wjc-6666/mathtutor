@@ -1,0 +1,17 @@
+RERANK qwen-D1 bge-reranker 1 / 80 query_ms 5561
+RERANK qwen-D1 bge-reranker 6 / 80 query_ms 4355
+RERANK qwen-D1 bge-reranker 11 / 80 query_ms 14677
+RERANK qwen-D1 bge-reranker 16 / 80 query_ms 16257
+RERANK qwen-D1 bge-reranker 21 / 80 query_ms 13947
+RERANK qwen-D1 bge-reranker 26 / 80 query_ms 16412
+RERANK qwen-D1 bge-reranker 31 / 80 query_ms 16865
+RERANK qwen-D1 bge-reranker 36 / 80 query_ms 15096
+RERANK qwen-D1 bge-reranker 41 / 80 query_ms 16487
+RERANK qwen-D1 bge-reranker 46 / 80 query_ms 15733
+RERANK qwen-D1 bge-reranker 51 / 80 query_ms 13539
+RERANK qwen-D1 bge-reranker 56 / 80 query_ms 16094
+RERANK qwen-D1 bge-reranker 61 / 80 query_ms 13161
+RERANK qwen-D1 bge-reranker 66 / 80 query_ms 16064
+RERANK qwen-D1 bge-reranker 71 / 80 query_ms 16528
+RERANK qwen-D1 bge-reranker 76 / 80 query_ms 15178
+DONE qwen-D1 bge-reranker {'n': 80, 'Hit@1': 0.3125, 'Recall@5': 0.4625, 'Recall@10': 0.5375, 'Recall@20': 0.6, 'Recall@50': 0.65, 'MRR@10': 0.379926, 'MRR@50': 0.385886, 'nDCG@10': 0.417358, 'failure_classes': {'Recall Failure': 28, 'Success': 37, 'Ranking Opportunity': 9, 'Near Success': 6}}

@@ -1,0 +1,32 @@
+[
+  {
+    "reranker": "current",
+    "eligible": [
+      "e5-small",
+      "bge-m3",
+      "qwen-D1",
+      "qwen-D2"
+    ],
+    "selected": [
+      "e5-small",
+      "bge-m3",
+      "qwen-D1",
+      "qwen-D2"
+    ],
+    "reason": "all recall-qualified pools"
+  },
+  {
+    "reranker": "bge-reranker",
+    "eligible": [
+      "e5-small",
+      "bge-m3",
+      "qwen-D1",
+      "qwen-D2"
+    ],
+    "selected": [
+      "e5-small",
+      "qwen-D1"
+    ],
+    "reason": "resource reduction if generic 384-token estimated full repeated pool >15min; baseline plus at most one stronger pool; no per-query tuning"
+  }
+]

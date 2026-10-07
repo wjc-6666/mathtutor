@@ -1,0 +1,106 @@
+LOADED qwen-embedding cold 1.75 {'rss_bytes': 745934848, 'peak_rss_bytes': 864755712, 'private_bytes': 1228193792}
+INDEX qwen-embedding 2 / 3800 seconds 0.7
+INDEX qwen-embedding 66 / 3800 seconds 32.8
+INDEX qwen-embedding 130 / 3800 seconds 73.7
+INDEX qwen-embedding 194 / 3800 seconds 135.8
+INDEX qwen-embedding 258 / 3800 seconds 177.2
+INDEX qwen-embedding 322 / 3800 seconds 222.5
+INDEX qwen-embedding 386 / 3800 seconds 266.9
+INDEX qwen-embedding 450 / 3800 seconds 314.1
+INDEX qwen-embedding 514 / 3800 seconds 361.4
+INDEX qwen-embedding 578 / 3800 seconds 406.2
+INDEX qwen-embedding 642 / 3800 seconds 446.7
+INDEX qwen-embedding 706 / 3800 seconds 499.9
+INDEX qwen-embedding 770 / 3800 seconds 549.6
+INDEX qwen-embedding 834 / 3800 seconds 602.9
+INDEX qwen-embedding 898 / 3800 seconds 662.8
+INDEX qwen-embedding 962 / 3800 seconds 729.2
+INDEX qwen-embedding 1026 / 3800 seconds 783.2
+INDEX qwen-embedding 1090 / 3800 seconds 843.6
+INDEX qwen-embedding 1154 / 3800 seconds 896.1
+INDEX qwen-embedding 1218 / 3800 seconds 949.0
+INDEX qwen-embedding 1282 / 3800 seconds 1005.6
+INDEX qwen-embedding 1346 / 3800 seconds 1067.2
+INDEX qwen-embedding 1410 / 3800 seconds 1112.4
+INDEX qwen-embedding 1474 / 3800 seconds 1159.7
+INDEX qwen-embedding 1538 / 3800 seconds 1207.7
+INDEX qwen-embedding 1602 / 3800 seconds 1267.1
+INDEX qwen-embedding 1666 / 3800 seconds 1335.2
+INDEX qwen-embedding 1730 / 3800 seconds 1380.9
+INDEX qwen-embedding 1794 / 3800 seconds 1435.8
+INDEX qwen-embedding 1858 / 3800 seconds 1494.1
+INDEX qwen-embedding 1922 / 3800 seconds 1554.9
+INDEX qwen-embedding 1986 / 3800 seconds 1619.6
+INDEX qwen-embedding 2050 / 3800 seconds 1675.0
+INDEX qwen-embedding 2114 / 3800 seconds 1721.1
+INDEX qwen-embedding 2178 / 3800 seconds 1782.3
+INDEX qwen-embedding 2242 / 3800 seconds 1839.4
+INDEX qwen-embedding 2306 / 3800 seconds 1903.5
+INDEX qwen-embedding 2370 / 3800 seconds 1956.2
+INDEX qwen-embedding 2434 / 3800 seconds 2009.1
+INDEX qwen-embedding 2498 / 3800 seconds 2056.8
+INDEX qwen-embedding 2562 / 3800 seconds 2085.9
+INDEX qwen-embedding 2626 / 3800 seconds 2137.3
+INDEX qwen-embedding 2690 / 3800 seconds 2190.0
+INDEX qwen-embedding 2754 / 3800 seconds 2235.9
+INDEX qwen-embedding 2818 / 3800 seconds 2290.7
+INDEX qwen-embedding 2882 / 3800 seconds 2346.9
+INDEX qwen-embedding 2946 / 3800 seconds 2387.5
+INDEX qwen-embedding 3010 / 3800 seconds 2437.0
+INDEX qwen-embedding 3074 / 3800 seconds 2485.3
+INDEX qwen-embedding 3138 / 3800 seconds 2541.3
+INDEX qwen-embedding 3202 / 3800 seconds 2589.8
+INDEX qwen-embedding 3266 / 3800 seconds 2650.6
+INDEX qwen-embedding 3330 / 3800 seconds 2708.9
+INDEX qwen-embedding 3394 / 3800 seconds 2765.9
+INDEX qwen-embedding 3458 / 3800 seconds 2834.0
+INDEX qwen-embedding 3522 / 3800 seconds 2899.7
+INDEX qwen-embedding 3586 / 3800 seconds 2958.7
+INDEX qwen-embedding 3650 / 3800 seconds 3011.8
+INDEX qwen-embedding 3714 / 3800 seconds 3073.4
+INDEX qwen-embedding 3778 / 3800 seconds 3136.6
+INDEX qwen-embedding 3800 / 3800 seconds 3156.9
+QUERY qwen-D1 development_a 1 / 35
+QUERY qwen-D1 development_a 11 / 35
+QUERY qwen-D1 development_a 21 / 35
+QUERY qwen-D1 development_a 31 / 35
+DONE qwen-D1 development_a {'n': 35, 'Hit@1': 0.228571, 'Recall@5': 0.514286, 'Recall@10': 0.571429, 'Recall@20': 0.685714, 'Recall@50': 0.814286, 'MRR@10': 0.367143, 'MRR@50': 0.377388, 'nDCG@10': 0.412661, 'failure_classes': {'Recall Failure': 6, 'Near Success': 2, 'Ranking Opportunity': 8, 'Success': 19}}
+QUERY qwen-D1 development_b 1 / 70
+QUERY qwen-D1 development_b 11 / 70
+QUERY qwen-D1 development_b 21 / 70
+QUERY qwen-D1 development_b 31 / 70
+QUERY qwen-D1 development_b 41 / 70
+QUERY qwen-D1 development_b 51 / 70
+QUERY qwen-D1 development_b 61 / 70
+DONE qwen-D1 development_b {'n': 70, 'Hit@1': 0.2, 'Recall@5': 0.321429, 'Recall@10': 0.45, 'Recall@20': 0.514286, 'Recall@50': 0.65, 'MRR@10': 0.261162, 'MRR@50': 0.27121, 'nDCG@10': 0.295558, 'failure_classes': {'Recall Failure': 22, 'Ranking Opportunity': 14, 'Near Success': 10, 'Success': 24}}
+QUERY qwen-D1 test_c 1 / 80
+QUERY qwen-D1 test_c 11 / 80
+QUERY qwen-D1 test_c 21 / 80
+QUERY qwen-D1 test_c 31 / 80
+QUERY qwen-D1 test_c 41 / 80
+QUERY qwen-D1 test_c 51 / 80
+QUERY qwen-D1 test_c 61 / 80
+QUERY qwen-D1 test_c 71 / 80
+DONE qwen-D1 test_c {'n': 80, 'Hit@1': 0.2125, 'Recall@5': 0.375, 'Recall@10': 0.45, 'Recall@20': 0.5125, 'Recall@50': 0.65, 'MRR@10': 0.279841, 'MRR@50': 0.288821, 'nDCG@10': 0.320068, 'failure_classes': {'Recall Failure': 28, 'Ranking Opportunity': 16, 'Success': 30, 'Near Success': 6}}
+QUERY qwen-D2 development_a 1 / 35
+QUERY qwen-D2 development_a 11 / 35
+QUERY qwen-D2 development_a 21 / 35
+QUERY qwen-D2 development_a 31 / 35
+DONE qwen-D2 development_a {'n': 35, 'Hit@1': 0.342857, 'Recall@5': 0.542857, 'Recall@10': 0.571429, 'Recall@20': 0.628571, 'Recall@50': 0.842857, 'MRR@10': 0.431429, 'MRR@50': 0.441407, 'nDCG@10': 0.456084, 'failure_classes': {'Recall Failure': 5, 'Ranking Opportunity': 9, 'Near Success': 1, 'Success': 20}}
+QUERY qwen-D2 development_b 1 / 70
+QUERY qwen-D2 development_b 11 / 70
+QUERY qwen-D2 development_b 21 / 70
+QUERY qwen-D2 development_b 31 / 70
+QUERY qwen-D2 development_b 41 / 70
+QUERY qwen-D2 development_b 51 / 70
+QUERY qwen-D2 development_b 61 / 70
+DONE qwen-D2 development_b {'n': 70, 'Hit@1': 0.2, 'Recall@5': 0.457143, 'Recall@10': 0.521429, 'Recall@20': 0.607143, 'Recall@50': 0.664286, 'MRR@10': 0.308866, 'MRR@50': 0.316253, 'nDCG@10': 0.354304, 'failure_classes': {'Recall Failure': 21, 'Success': 34, 'Near Success': 5, 'Ranking Opportunity': 10}}
+QUERY qwen-D2 test_c 1 / 80
+QUERY qwen-D2 test_c 11 / 80
+QUERY qwen-D2 test_c 21 / 80
+QUERY qwen-D2 test_c 31 / 80
+QUERY qwen-D2 test_c 41 / 80
+QUERY qwen-D2 test_c 51 / 80
+QUERY qwen-D2 test_c 61 / 80
+QUERY qwen-D2 test_c 71 / 80
+DONE qwen-D2 test_c {'n': 80, 'Hit@1': 0.225, 'Recall@5': 0.4625, 'Recall@10': 0.5, 'Recall@20': 0.5625, 'Recall@50': 0.65, 'MRR@10': 0.325987, 'MRR@50': 0.333337, 'nDCG@10': 0.368842, 'failure_classes': {'Recall Failure': 28, 'Success': 37, 'Ranking Opportunity': 12, 'Near Success': 3}}

@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    [
+      "input_ids",
+      [
+        "batch_size",
+        "sequence_length"
+      ],
+      "tensor(int64)"
+    ],
+    [
+      "attention_mask",
+      [
+        "batch_size",
+        "sequence_length"
+      ],
+      "tensor(int64)"
+    ]
+  ],
+  "outputs": [
+    [
+      "last_hidden_state",
+      [
+        "batch_size",
+        "sequence_length",
+        768
+      ],
+      "tensor(float)"
+    ]
+  ],
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "pooling": "mean",
+  "query_prefix": "query: ",
+  "tokens": 384,
+  "baseline_original_E5CPU": false
+}

@@ -1,0 +1,15 @@
+{
+  "fresh_process": true,
+  "test_sha256": "359f8d4220cd6a9bd83560e91df67389f776068d13a8b7b8cbffdb8aec8c5667",
+  "results": {
+    "bge-m3": {
+      "queries": 80,
+      "identical_top50": 80,
+      "differences": []
+    }
+  },
+  "time": 1790959271.9076047,
+  "rss_bytes": 954413056,
+  "peak_rss_bytes": 964669440,
+  "private_bytes": 1471782912
+}

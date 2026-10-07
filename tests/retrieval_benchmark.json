@@ -1,0 +1,517 @@
+{
+  "version": "math-v12-benchmark-1",
+  "scope": "35 manually curated questions / 18 distinct original PDF pages across 3 books; correlated paraphrases, exploratory not held-out test",
+  "ground_truth_policy": "Curated before benchmark run. Keep failures. Page-level relevant sets may be incomplete; exact cases require label when given. No benchmark IDs/pages enter retrieval code.",
+  "questions": [
+    {
+      "id": "Exact-01",
+      "category": "Exact",
+      "query": "例2.59",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 103,
+          "label": "例2.59"
+        }
+      ],
+      "annotation": "AA^T 的主子式非负",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Exact-02",
+      "category": "Exact",
+      "query": "例1.4",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 17,
+          "label": "例1.4"
+        }
+      ],
+      "annotation": "爪型行列式",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Exact-03",
+      "category": "Exact",
+      "query": "例3.2.27",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 200,
+          "label": "例3.2.27"
+        }
+      ],
+      "annotation": "Cauchy 中值定理证明一次 Taylor 余项",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Exact-04",
+      "category": "Exact",
+      "query": "例5.2.32",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 473,
+          "label": "例5.2.32"
+        }
+      ],
+      "annotation": "导函数一致有界推出等度连续",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Exact-05",
+      "category": "Exact",
+      "query": "习题1.3.20 求极限",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 14
+        }
+      ],
+      "annotation": "右半页印刷28页，习题1.3.20；OCR可能丢编号，不豁免失败",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Concept-01",
+      "category": "Concept",
+      "query": "线性同构的定义是什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 129
+        }
+      ],
+      "annotation": "保加法、数乘且为一一对应",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Concept-02",
+      "category": "Concept",
+      "query": "矩阵的秩如何定义？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 131
+        }
+      ],
+      "annotation": "行/列向量组的秩",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Concept-03",
+      "category": "Concept",
+      "query": "什么是函数序列与函数项级数的一致收敛？定义中的 N 为什么不能依赖 x？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 453
+        }
+      ],
+      "annotation": "利用定义证明一致收敛性；此处为定义法讲解，非编号定义",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Concept-04",
+      "category": "Concept",
+      "query": "什么是等度连续的函数族？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 473
+        }
+      ],
+      "annotation": "等度连续定义",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Concept-05",
+      "category": "Concept",
+      "query": "什么是线性空间 V 的对偶空间与对偶基？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 614
+        }
+      ],
+      "annotation": "V 上全部线性函数构成 V*，及对偶基定义",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Theorem-01",
+      "category": "Theorem",
+      "query": "Rolle 定理要求哪些条件，零点为什么对应驻点？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 185
+        }
+      ],
+      "annotation": "Rolle 定理在零点问题中的概述及应用",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Theorem-02",
+      "category": "Theorem",
+      "query": "交和空间维数公式是什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 131
+        }
+      ],
+      "annotation": "dim(V1+V2)=dimV1+dimV2-dim(V1∩V2)",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Theorem-03",
+      "category": "Theorem",
+      "query": "数项级数的 Cauchy 收敛准则及其否定形式是什么？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 411
+        }
+      ],
+      "annotation": "Cauchy 准则及否定形式",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Theorem-04",
+      "category": "Theorem",
+      "query": "Cauchy-Binet 公式如何计算乘积矩阵的行列式及子式？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 101
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 103
+        }
+      ],
+      "annotation": "101概述用途；103例2.59/2.61给出具体展开，不声称101完整列出通式",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Theorem-05",
+      "category": "Theorem",
+      "query": "同一数域上线性空间同构的充要条件是什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 129
+        }
+      ],
+      "annotation": "同维数充要条件",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Method-01",
+      "category": "Method",
+      "query": "证明中值公式时如何从目标倒推构造辅助函数？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 185
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 200
+        }
+      ],
+      "annotation": "185方法概述；200变形目标并构造F,G",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Method-02",
+      "category": "Method",
+      "query": "如何利用 Cauchy-Binet 展开证明主子式非负？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 103
+        }
+      ],
+      "annotation": "例2.59平方和",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Method-03",
+      "category": "Method",
+      "query": "如何用反复分部积分证明涉及指数函数与一百阶截断和的积分方程有根？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 311
+        }
+      ],
+      "annotation": "例4.3.11反复分部积分",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Method-04",
+      "category": "Method",
+      "query": "爪型行列式如何通过列变换化成三角行列式计算？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 17
+        }
+      ],
+      "annotation": "例1.4列变换",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Method-05",
+      "category": "Method",
+      "query": "怎样利用上确界估计和 epsilon-N 定义判断函数项级数一致收敛？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 453
+        }
+      ],
+      "annotation": "定义法第3种上确界判据",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Paraphrase-01",
+      "category": "Paraphrase",
+      "query": "同一个误差门槛下，所有点共用同一个 N；这和每一点各自收敛有何区别？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 453
+        }
+      ],
+      "annotation": "一致收敛/逐点收敛",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Paraphrase-02",
+      "category": "Paraphrase",
+      "query": "两个向量空间之间存在既保加法又保数乘的双射，这种对应叫什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 129
+        }
+      ],
+      "annotation": "线性同构定义改写",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Paraphrase-03",
+      "category": "Paraphrase",
+      "query": "把一个实矩阵乘上它的转置，为什么沿相同行列选出的子行列式不会为负？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 103
+        }
+      ],
+      "annotation": "例2.59改写",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Paraphrase-04",
+      "category": "Paraphrase",
+      "query": "A 的秩是 1，什么时候能找到一组基把它变成对角矩阵？是否与迹为零有关？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 341
+        }
+      ],
+      "annotation": "例6.74 tr(A)非零充要条件",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "Paraphrase-05",
+      "category": "Paraphrase",
+      "query": "在闭区间连续且内部可导的函数，两端取值相同，为何内部至少有一个水平切线？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 185
+        }
+      ],
+      "annotation": "Rolle 定理零点/驻点说明",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "SimilarProblem-01",
+      "category": "SimilarProblem",
+      "query": "找类似题：设 A 是 m×n 实矩阵，证明 AA^T 任一主子式都非负。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 103
+        }
+      ],
+      "annotation": "例2.59，并有相邻例2.60/2.61",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "SimilarProblem-02",
+      "category": "SimilarProblem",
+      "query": "找类似题：实系数多项式的一切根都是实数，证明各阶导数也只有实根。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 186
+        }
+      ],
+      "annotation": "例3.2.2；计重数使用Rolle",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "SimilarProblem-03",
+      "category": "SimilarProblem",
+      "query": "找同类例题：非零秩一矩阵可对角化的条件与它的迹是什么关系？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 341
+        }
+      ],
+      "annotation": "例6.74",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "SimilarProblem-04",
+      "category": "SimilarProblem",
+      "query": "找类似题：一族可微函数的导数一致有界，证明这族函数等度连续。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 473
+        }
+      ],
+      "annotation": "例5.2.32",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "SimilarProblem-05",
+      "category": "SimilarProblem",
+      "query": "找类似题：欧氏空间通过内积与自身对偶空间同构，正交基的对偶基如何确定？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 623
+        }
+      ],
+      "annotation": "例10.12",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "MethodSimilarity-01",
+      "category": "MethodSimilarity",
+      "query": "找方法相同但表面不同的题：用 Rolle 定理处理 f(a)=f(b)=0 时存在 ξ 满足 f'(ξ)=k f(ξ)。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 186
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 187
+        }
+      ],
+      "annotation": "例3.2.4构造指数因子；例3.2.6构造行列式",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "MethodSimilarity-02",
+      "category": "MethodSimilarity",
+      "query": "目标式含 f(ξ)-ξ f'(ξ)，怎样从目标倒推两个函数并使用 Cauchy 中值定理？找方法相近的题。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 200
+        }
+      ],
+      "annotation": "例3.2.26构造f(x)/x与1/x；例3.2.27另一个F,G构造",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "MethodSimilarity-03",
+      "category": "MethodSimilarity",
+      "query": "两组数的平方和乘积减去内积平方；找用矩阵乘积子式展开而非直接展开多项式的方法相似题。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 104
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 103
+        }
+      ],
+      "annotation": "例2.62 Lagrange恒等式与例2.59同用Cauchy-Binet",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "MethodSimilarity-04",
+      "category": "MethodSimilarity",
+      "query": "从矩阵结构入手，把爪型行列式消元成三角形；找列变换降阶法相关例题。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 17
+        }
+      ],
+      "annotation": "例1.4列变换",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    },
+    {
+      "id": "MethodSimilarity-05",
+      "category": "MethodSimilarity",
+      "query": "连续函数有界闭区间上的等度连续证明，寻找用导数界控制差商的题。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 473
+        }
+      ],
+      "annotation": "例5.2.32由微分中值定理推出Lipschitz界",
+      "verification": "original PDF visually checked; PDF page numbering, not printed page"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+LOADED e5-small cold 1.17 {'rss_bytes': 742477824, 'peak_rss_bytes': 759496704, 'private_bytes': 1234579456}
+INDEX e5-small 8 / 3800 seconds 0.3
+INDEX e5-small 264 / 3800 seconds 6.8
+INDEX e5-small 520 / 3800 seconds 14.8
+INDEX e5-small 776 / 3800 seconds 22.6
+INDEX e5-small 1032 / 3800 seconds 31.9
+INDEX e5-small 1288 / 3800 seconds 41.7
+INDEX e5-small 1544 / 3800 seconds 50.5
+INDEX e5-small 1800 / 3800 seconds 59.9
+INDEX e5-small 2056 / 3800 seconds 69.8
+INDEX e5-small 2312 / 3800 seconds 79.5
+INDEX e5-small 2568 / 3800 seconds 87.7
+INDEX e5-small 2824 / 3800 seconds 96.6
+INDEX e5-small 3080 / 3800 seconds 105.4
+INDEX e5-small 3336 / 3800 seconds 115.4
+INDEX e5-small 3592 / 3800 seconds 125.4
+INDEX e5-small 3800 / 3800 seconds 133.4
+QUERY e5-small development_a 1 / 35
+QUERY e5-small development_a 11 / 35
+QUERY e5-small development_a 21 / 35
+QUERY e5-small development_a 31 / 35
+DONE e5-small development_a {'n': 35, 'Hit@1': 0.285714, 'Recall@5': 0.471429, 'Recall@10': 0.5, 'Recall@20': 0.6, 'Recall@50': 0.685714, 'MRR@10': 0.36932, 'MRR@50': 0.378483, 'nDCG@10': 0.3998, 'failure_classes': {'Recall Failure': 11, 'Ranking Opportunity': 6, 'Success': 17, 'Near Success': 1}}
+QUERY e5-small development_b 1 / 70
+QUERY e5-small development_b 11 / 70
+QUERY e5-small development_b 21 / 70
+QUERY e5-small development_b 31 / 70
+QUERY e5-small development_b 41 / 70
+QUERY e5-small development_b 51 / 70
+QUERY e5-small development_b 61 / 70
+DONE e5-small development_b {'n': 70, 'Hit@1': 0.142857, 'Recall@5': 0.278571, 'Recall@10': 0.342857, 'Recall@20': 0.435714, 'Recall@50': 0.6, 'MRR@10': 0.205136, 'MRR@50': 0.21592, 'nDCG@10': 0.23404, 'failure_classes': {'Recall Failure': 27, 'Ranking Opportunity': 18, 'Success': 20, 'Near Success': 5}}
+QUERY e5-small test_c 1 / 80
+QUERY e5-small test_c 11 / 80
+QUERY e5-small test_c 21 / 80
+QUERY e5-small test_c 31 / 80
+QUERY e5-small test_c 41 / 80
+QUERY e5-small test_c 51 / 80
+QUERY e5-small test_c 61 / 80
+QUERY e5-small test_c 71 / 80
+DONE e5-small test_c {'n': 80, 'Hit@1': 0.1875, 'Recall@5': 0.3375, 'Recall@10': 0.3625, 'Recall@20': 0.45, 'Recall@50': 0.6, 'MRR@10': 0.252098, 'MRR@50': 0.263287, 'nDCG@10': 0.279238, 'failure_classes': {'Recall Failure': 32, 'Ranking Opportunity': 19, 'Success': 27, 'Near Success': 2}}

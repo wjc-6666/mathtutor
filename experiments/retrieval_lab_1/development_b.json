@@ -1,0 +1,1326 @@
+{
+  "version": "math-v121-holdout-1",
+  "split": "development",
+  "created_at": 1790942755.92143,
+  "frozen_policy_hash": "e93a345dc7c579c669ad362e61a763254e9a348a750c353f9613e1e382686fc8",
+  "development_sha256": "d1b0dfecb88a8996442535c2348790ea857e78df7918049f2383a5ff582ec84f",
+  "protocol": "Rules and weights frozen before authoring and original-page verification. No retrieval predictions read during authoring. Original 35 unchanged. All target pages disjoint from development. One final paired scoring; no subsequent tuning. Same-author holdout, some source/topic correlations, not external certification.",
+  "grading": "3=answers specified question; 0=explicit hard negative; positive sets intentionally curated, not exhaustive",
+  "questions": [
+    {
+      "id": "H-Exact-01",
+      "category": "Exact",
+      "query": "例2.6",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 74,
+          "grade": 3,
+          "label": "例2.6"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-02",
+      "category": "Exact",
+      "query": "例2.36",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 90,
+          "grade": 3,
+          "label": "例2.36"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-03",
+      "category": "Exact",
+      "query": "例2.44",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 95,
+          "grade": 3,
+          "label": "例2.44"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-04",
+      "category": "Exact",
+      "query": "例4.2",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 206,
+          "grade": 3,
+          "label": "例4.2"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-05",
+      "category": "Exact",
+      "query": "例4.6",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 208,
+          "grade": 3,
+          "label": "例4.6"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-06",
+      "category": "Exact",
+      "query": "例4.15",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 211,
+          "grade": 3,
+          "label": "例4.15"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-07",
+      "category": "Exact",
+      "query": "例6.2",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 301,
+          "grade": 3,
+          "label": "例6.2"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-08",
+      "category": "Exact",
+      "query": "例5.2.7",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 458,
+          "grade": 3,
+          "label": "例5.2.7"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-09",
+      "category": "Exact",
+      "query": "习题1.6.6",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 26,
+          "grade": 3,
+          "label": "习题1.6.6"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Exact-10",
+      "category": "Exact",
+      "query": "习题4.3.21",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 99,
+          "grade": 3,
+          "label": "习题4.3.21"
+        }
+      ],
+      "annotation": "原页编号直接核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-01",
+      "category": "Paraphrase",
+      "query": "怎样挑出一些列向量组成可逆阵，让换基后的线性作用只在每根坐标轴上伸缩？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 324,
+          "grade": 3
+        }
+      ],
+      "annotation": "对角化过渡矩阵的列为特征向量",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-02",
+      "category": "Paraphrase",
+      "query": "实矩阵乘上自身转置后，把对角线加起来为何不会小于零；何时这个和才是零？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 95,
+          "grade": 3,
+          "label": "例2.46"
+        }
+      ],
+      "annotation": "tr(AA^T)为所有元素平方和",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-03",
+      "category": "Paraphrase",
+      "query": "有限维空间中一个可逆线性映射，为何会把任意一组基送到另一组基？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 210,
+          "grade": 3,
+          "label": "例4.13"
+        }
+      ],
+      "annotation": "基变基与自同构等价",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-04",
+      "category": "Paraphrase",
+      "query": "一个线性作用重复足够多次会把每个向量送到零，次数允许随向量变化；为什么恒等作用减去它仍能逆转？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 211,
+          "grade": 3,
+          "label": "例4.15"
+        }
+      ],
+      "annotation": "有限维局部幂零推出幂零，I-T可逆",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-05",
+      "category": "Paraphrase",
+      "query": "从正定矩阵里保留完全相同的一批行和列，留下的小方阵还保持正定吗？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 450,
+          "grade": 3,
+          "label": "例8.3"
+        }
+      ],
+      "annotation": "主子阵正定性，不同于主子式非负",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-06",
+      "category": "Paraphrase",
+      "query": "两个内积空间之间有既保加法又保数乘的双射，而且内积也保持，这样的对应叫什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 523,
+          "grade": 3
+        }
+      ],
+      "annotation": "保积同构；仅线性同构定义不足回答额外内积要求",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-07",
+      "category": "Paraphrase",
+      "query": "两组实矩阵的列向量两两点积完全一样，为什么可以用一个保持长度的左乘变换把它们互相变过去？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 529,
+          "grade": 3,
+          "label": "例9.39"
+        }
+      ],
+      "annotation": "相同Gram矩阵与左正交变换",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-08",
+      "category": "Paraphrase",
+      "query": "把可微函数右移一个指数衰减的小步长，差值乘相反的指数；为何所有点共用同一个误差指标逼近导函数？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 455,
+          "grade": 3,
+          "label": "例5.2.2"
+        }
+      ],
+      "annotation": "e^n(f(x+e^-n)-f(x))在有限区间一致收敛",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-09",
+      "category": "Paraphrase",
+      "query": "闭区间上的连续曲线一起贴近同一极限曲线后，为何整族曲线能够共用控制横坐标距离的门槛？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 475,
+          "grade": 3,
+          "label": "例5.2.34"
+        }
+      ],
+      "annotation": "一致收敛连续函数列推出等度连续",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-Paraphrase-10",
+      "category": "Paraphrase",
+      "query": "斜率在区间两端一低一高，没假设斜率本身连续，为何中间每一个斜率值仍能取到？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 198,
+          "grade": 3,
+          "label": "例3.2.24"
+        }
+      ],
+      "annotation": "Darboux导数介值性",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-01",
+      "category": "ImplicitConcept",
+      "query": "线性映射下所有被送到零的向量组成什么空间？维数如何与像空间相加？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 204,
+          "grade": 3
+        }
+      ],
+      "annotation": "核、像、秩零度公式",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-02",
+      "category": "ImplicitConcept",
+      "query": "一个子空间被线性变换送回自身，这种子空间叫什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 204,
+          "grade": 3
+        }
+      ],
+      "annotation": "不变子空间定义",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-03",
+      "category": "ImplicitConcept",
+      "query": "把几何平均值放在算术平均值之下，用反向归纳完成证明，教材在哪里？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 23,
+          "grade": 3
+        }
+      ],
+      "annotation": "均值不等式",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-04",
+      "category": "ImplicitConcept",
+      "query": "导函数无需连续仍有介值性质，这个结果叫什么？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 198,
+          "grade": 3
+        }
+      ],
+      "annotation": "Darboux定理",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-05",
+      "category": "ImplicitConcept",
+      "query": "矩阵的所有特征值落在以对角元为中心、其余行元素绝对值之和为半径的圆盘里，是什么估计？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 300,
+          "grade": 3
+        }
+      ],
+      "annotation": "Gerschgorin圆盘",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-06",
+      "category": "ImplicitConcept",
+      "query": "欧氏空间中将一个方向反过来、其垂直超平面保持不动的变换是什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 530,
+          "grade": 3
+        }
+      ],
+      "annotation": "镜像变换",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-07",
+      "category": "ImplicitConcept",
+      "query": "一个实对称矩阵允许二次型取零，但从不取负，应该是哪种定性？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 478,
+          "grade": 3
+        }
+      ],
+      "annotation": "半正定判定概述",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-08",
+      "category": "ImplicitConcept",
+      "query": "每个正小数加到对角线上就严格正定的实对称矩阵，原矩阵是什么性质？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 478,
+          "grade": 3
+        }
+      ],
+      "annotation": "例8.63半正定的极限性质",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-09",
+      "category": "ImplicitConcept",
+      "query": "递推数列的极限等于把极限再代入递推函数的值，这背后的方法叫什么？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 77,
+          "grade": 3
+        }
+      ],
+      "annotation": "不动点方法",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-ImplicitConcept-10",
+      "category": "ImplicitConcept",
+      "query": "闭区间上等度连续又一致有界的连续函数族可抽出怎样的收敛子列？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 476,
+          "grade": 3
+        }
+      ],
+      "annotation": "例5.2.36紧性抽子列",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-01",
+      "category": "MathematicalRelation",
+      "query": "两个线性映射能否写成 psi=xi phi，核的包含关系是什么条件？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 208,
+          "grade": 3,
+          "label": "例4.6"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-02",
+      "category": "MathematicalRelation",
+      "query": "为什么不同特征值对应的两个特征向量之和不是特征向量？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 301,
+          "grade": 3,
+          "label": "例6.2"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-03",
+      "category": "MathematicalRelation",
+      "query": "映射 X→AXB 可逆与两端矩阵A、B均可逆有何关系？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 211,
+          "grade": 3,
+          "label": "例4.16"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-04",
+      "category": "MathematicalRelation",
+      "query": "A^T A=B^T B 与存在正交矩阵Q使A=QB如何互推？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 529,
+          "grade": 3,
+          "label": "例9.39"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-05",
+      "category": "MathematicalRelation",
+      "query": "实对称矩阵半正定如何等价于A=C^T C，C是否必须可逆？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 460,
+          "grade": 3,
+          "label": "例8.26"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-06",
+      "category": "MathematicalRelation",
+      "query": "严格上三角矩阵为何满足A^n=0？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 74,
+          "grade": 3,
+          "label": "例2.6"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-07",
+      "category": "MathematicalRelation",
+      "query": "函数序列一致收敛，怎样保证闭区间上的等度连续？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 475,
+          "grade": 3,
+          "label": "例5.2.34"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-08",
+      "category": "MathematicalRelation",
+      "query": "两个有界且一致收敛的函数序列，它们逐项乘积为何仍一致收敛？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 476,
+          "grade": 3,
+          "label": "例5.2.37"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-09",
+      "category": "MathematicalRelation",
+      "query": "等度连续加逐点收敛，为什么可以交换闭区间积分与极限？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 676,
+          "grade": 3,
+          "label": "例7.1.2"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MathematicalRelation-10",
+      "category": "MathematicalRelation",
+      "query": "反复对前一函数从a到x积分，阶乘界如何推出一致趋零？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 459,
+          "grade": 3,
+          "label": "例5.2.10"
+        }
+      ],
+      "annotation": "原页对象及关系核对",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MethodSimilarity-01",
+      "category": "MethodSimilarity",
+      "query": "找使用矩阵乘积子式展开证明伴随乘积逆序规律的方法例题。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 90,
+          "grade": 3,
+          "label": "例2.36"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：apply_cauchy_binet",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "apply_cauchy_binet"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-02",
+      "category": "MethodSimilarity",
+      "query": "把元素1+x_i y_j的矩阵分解成长方矩阵之积，通过Cauchy-Binet得行列式为零；找相同方法。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 102,
+          "grade": 3,
+          "label": "例2.52"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：apply_cauchy_binet",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "apply_cauchy_binet"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-03",
+      "category": "MethodSimilarity",
+      "query": "用反证法及迹的交换性否定AB-BA等于非零标量单位阵，找方法相关题。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 95,
+          "grade": 3,
+          "label": "例2.44"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：contradiction",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "contradiction"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-04",
+      "category": "MethodSimilarity",
+      "query": "不同特征值的两个特征向量的和能否仍是特征向量？找反证解法。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 301,
+          "grade": 3,
+          "label": "例6.2"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：contradiction",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "contradiction"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-05",
+      "category": "MethodSimilarity",
+      "query": "构造f(x)-cx制造内部极小点，运用Fermat证明导数介值性，找辅助函数方法题。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 198,
+          "grade": 3,
+          "label": "例3.2.24"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：construct_auxiliary_function",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "construct_auxiliary_function"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-06",
+      "category": "MethodSimilarity",
+      "query": "找用分部积分控制振荡反常积分尾部的方法题，积分x sin(x^4)。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 384,
+          "grade": 3,
+          "label": "例4.5.23"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：integration_by_parts",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "integration_by_parts"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-07",
+      "category": "MethodSimilarity",
+      "query": "通过数学归纳法沿基向量证明严格上三角矩阵幂零，找同方法例子。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 74,
+          "grade": 3,
+          "label": "例2.6"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：induction",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "induction"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-08",
+      "category": "MethodSimilarity",
+      "query": "求函数序列在半轴的最大值，再用上确界判断一致收敛，找方法例题。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 458,
+          "grade": 3,
+          "label": "例5.2.7"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：supremum_bound",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "supremum_bound"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-09",
+      "category": "MethodSimilarity",
+      "query": "利用矩阵相似不变量排除相似关系，找关于正交矩阵和解空间奇数维的题。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 324,
+          "grade": 3,
+          "label": "例6.49"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：invariant",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "invariant"
+      ]
+    },
+    {
+      "id": "H-MethodSimilarity-10",
+      "category": "MethodSimilarity",
+      "query": "先取对数，把乘积极限变成积分，再用分部积分和变量替换；找相关方法题。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 272,
+          "grade": 3,
+          "label": "例4.1.3"
+        }
+      ],
+      "annotation": "证明使用方法经原页核对：integration_by_parts",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target",
+      "expected_method_signature": [
+        "integration_by_parts"
+      ]
+    },
+    {
+      "id": "H-MisleadingVocabulary-01",
+      "category": "MisleadingVocabulary",
+      "query": "可逆函数的反函数不是线性同构问题：周期函数的不同区间反函数如何相互平移？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 23,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 210,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-02",
+      "category": "MisleadingVocabulary",
+      "query": "这里的正定指实对称矩阵；只把顺序主子式非负当条件够不够判半正定？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 479,
+          "grade": 3,
+          "label": "例8.64"
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 450,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-03",
+      "category": "MisleadingVocabulary",
+      "query": "Lagrange不是微分中值定理：我要几何平均与算术平均的不等式的反向归纳证明。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 23,
+          "grade": 3,
+          "label": "例1.1.7"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 198,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-04",
+      "category": "MisleadingVocabulary",
+      "query": "矩阵的相似不是题目相似：用迹不变量判断AB-BA不可能相似于非零kI。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 324,
+          "grade": 3,
+          "label": "例6.48"
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 95,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-05",
+      "category": "MisleadingVocabulary",
+      "query": "不是寻找线性同构定义，我问保积同构还要额外保持什么结构。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 523,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 204,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-06",
+      "category": "MisleadingVocabulary",
+      "query": "映射X→AXB的可逆性不是单个可逆矩阵求逆公式；找两端A,B可逆的充要条件。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 211,
+          "grade": 3,
+          "label": "例4.16"
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 90,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-07",
+      "category": "MisleadingVocabulary",
+      "query": "导数有介值性不等于导数连续；找不假定导数连续的Darboux证明。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 198,
+          "grade": 3,
+          "label": "例3.2.24"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 455,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-08",
+      "category": "MisleadingVocabulary",
+      "query": "等度连续不是单个函数一致连续：连续函数序列一致收敛推出全族等度连续。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 475,
+          "grade": 3,
+          "label": "例5.2.34"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 132,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-09",
+      "category": "MisleadingVocabulary",
+      "query": "矩阵伴随不是伴随算子：用Cauchy-Binet证明(AB)*=B*A*。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 90,
+          "grade": 3,
+          "label": "例2.36"
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 523,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-MisleadingVocabulary-10",
+      "category": "MisleadingVocabulary",
+      "query": "定积分存在与反常积分收敛有区别；找x sin(x^4)无穷限积分的分部积分证明。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 384,
+          "grade": 3,
+          "label": "例4.5.23"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 272,
+          "grade": 0
+        }
+      ],
+      "annotation": "误导术语与目标问题分开标注",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-01",
+      "category": "CrossBook",
+      "query": "分别在高代与数学分析中找数学归纳证明：上三角矩阵幂零、均值不等式。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 74,
+          "grade": 3,
+          "label": "例2.6"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 23,
+          "grade": 3,
+          "label": "例1.1.7"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-02",
+      "category": "CrossBook",
+      "query": "比较两本教材的归纳法使用：基础矩阵的幂与任意多个非负数的几何平均。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 74,
+          "grade": 3,
+          "label": "例2.6"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 23,
+          "grade": 3,
+          "label": "例1.1.7"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-03",
+      "category": "CrossBook",
+      "query": "找两本书中反证法的具体使用：矩阵交换子的迹、正数列无界。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 95,
+          "grade": 3,
+          "label": "例2.44"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 77,
+          "grade": 3
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-04",
+      "category": "CrossBook",
+      "query": "反证得到矛盾的方法在高代非零kI问题与分析数列上确界问题中各在哪里？",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 95,
+          "grade": 3,
+          "label": "例2.44"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 77,
+          "grade": 3
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-05",
+      "category": "CrossBook",
+      "query": "分别查原页：分析的乘积极限取对数后变量替换，高代正定矩阵主子式证明中的变量代换。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 272,
+          "grade": 3,
+          "label": "例4.1.3"
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 450,
+          "grade": 3,
+          "label": "例8.4"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-06",
+      "category": "CrossBook",
+      "query": "比较分析和高代的换元技巧：乘积极限转积分与通过对换变量证明正定阵主子式正。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 272,
+          "grade": 3,
+          "label": "例4.1.3"
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 450,
+          "grade": 3,
+          "label": "例8.4"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-07",
+      "category": "CrossBook",
+      "query": "分析中用正交变换计算正定二次型椭球区域积分，高代中二次型的C^T C表示；两本原页都要。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 780,
+          "grade": 3,
+          "label": "例7.2.41"
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 460,
+          "grade": 3,
+          "label": "例8.26"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-08",
+      "category": "CrossBook",
+      "query": "比较正定矩阵在两本教材的用法：代数的平方分解，分析四维椭球积分换元。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 460,
+          "grade": 3,
+          "label": "例8.26"
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 780,
+          "grade": 3,
+          "label": "例7.2.41"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-09",
+      "category": "CrossBook",
+      "query": "在数学分析正文与习题解答各找epsilon-N误差控制：函数差商一致逼近、数列加权平均保极限。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 455,
+          "grade": 3,
+          "label": "例5.2.2"
+        },
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 8,
+          "grade": 3,
+          "label": "习题1.2.3"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    },
+    {
+      "id": "H-CrossBook-10",
+      "category": "CrossBook",
+      "query": "比较两种N的选取：正文中所有点共享的差商误差界，解答中a_n加权平均收敛的头尾分拆。",
+      "subject": "all",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 455,
+          "grade": 3,
+          "label": "例5.2.2"
+        },
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 8,
+          "grade": 3,
+          "label": "习题1.2.3"
+        }
+      ],
+      "annotation": "跨教材多目标，各目标均需被召回",
+      "verification": "original PDF page image visually inspected after policy freeze, before scoring; 1-based PDF page",
+      "hard_negative_policy": "grade 0 is related but does not answer the specified target"
+    }
+  ],
+  "source_file_sha256": "74c942018509eb3b6e169c145a2752fa79e719c8991b44220854bd959a14f057"
+}

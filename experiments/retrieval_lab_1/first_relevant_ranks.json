@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "C-Exact-01",
+    "query": "例3.37",
+    "category": "Exact",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-02",
+    "query": "例3.66",
+    "category": "Exact",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": 16,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-03",
+    "query": "例3.82",
+    "category": "Exact",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-04",
+    "query": "例4.39",
+    "category": "Exact",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-05",
+    "query": "例5.39",
+    "category": "Exact",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-06",
+    "query": "例6.62",
+    "category": "Exact",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-07",
+    "query": "例2.1.13",
+    "category": "Exact",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": 8,
+      "e5-small": 1,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Near Success",
+      "e5-small": "Success",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-08",
+    "query": "例3.3.8",
+    "category": "Exact",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": 44,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Exact-09",
+    "query": "习题3.2.32",
+    "category": "Exact",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": 1,
+      "e5-small": 1,
+      "qwen-D1": 23,
+      "qwen-D2": 3
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Exact-10",
+    "query": "习题3.4.15",
+    "category": "Exact",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": 22,
+      "qwen-D1": 21,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-01",
+    "query": "投影变换与幂等变换的定义有什么联系？",
+    "category": "Concept",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-02",
+    "query": "多项式的零点和一次因式是什么关系？",
+    "category": "Concept",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 33,
+      "e5-small": 28,
+      "qwen-D1": 4,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-03",
+    "query": "Frobenius标准型的块如何定义？",
+    "category": "Concept",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": null,
+      "e5-small": 3,
+      "qwen-D1": 2,
+      "qwen-D2": 3
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Recall Failure",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-04",
+    "query": "Gram行列式的几何意义是什么？",
+    "category": "Concept",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-05",
+    "query": "Cantor怎样用有理数基本序列定义实数？",
+    "category": "Concept",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-06",
+    "query": "用上下极限如何判别数列收敛？",
+    "category": "Concept",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 4,
+      "e5-base": 6,
+      "e5-small": null,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Near Success",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-07",
+    "query": "一致连续可以用两数列距离趋零来刻画吗？",
+    "category": "Concept",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 6,
+      "e5-base": null,
+      "e5-small": 28,
+      "qwen-D1": null,
+      "qwen-D2": 13
+    },
+    "classes": {
+      "bge-m3": "Near Success",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-Concept-08",
+    "query": "二阶对称导数与普通二阶导数有何区别？",
+    "category": "Concept",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 4,
+      "e5-small": 2,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-09",
+    "query": "没有初等原函数时怎样用Darboux和估计积分？",
+    "category": "Concept",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 2,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Concept-10",
+    "query": "逐项求导的充分条件为何不一定是必要条件？",
+    "category": "Concept",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 2,
+      "e5-base": null,
+      "e5-small": 2,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Recall Failure",
+      "e5-small": "Success",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Theorem-01",
+    "query": "Sylvester矩阵乘积秩不等式及其证明",
+    "category": "Theorem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 2,
+      "e5-base": 2,
+      "e5-small": 2,
+      "qwen-D1": 4,
+      "qwen-D2": 3
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Theorem-02",
+    "query": "严格对角占优矩阵为什么非奇异？",
+    "category": "Theorem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 8,
+      "e5-small": 2,
+      "qwen-D1": 2,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Near Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Theorem-03",
+    "query": "无重因式多项式与形式导数互素的充要条件",
+    "category": "Theorem",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 4,
+      "e5-small": 5,
+      "qwen-D1": 17,
+      "qwen-D2": 4
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Theorem-04",
+    "query": "奇数次实系数多项式必有实根的证明",
+    "category": "Theorem",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Theorem-05",
+    "query": "可交换且都可对角化的线性变换可同时对角化吗？",
+    "category": "Theorem",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 9,
+      "e5-base": 16,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 3
+    },
+    "classes": {
+      "bge-m3": "Near Success",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Theorem-06",
+    "query": "闭区间到自身的连续函数存在不动点的证明",
+    "category": "Theorem",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": 48,
+      "e5-small": null,
+      "qwen-D1": 48,
+      "qwen-D2": 45
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-Theorem-07",
+    "query": "有限区间上一致连续等价于保持Cauchy序列的证明",
+    "category": "Theorem",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 3,
+      "e5-small": 2,
+      "qwen-D1": 4,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Theorem-08",
+    "query": "连续函数绝对值可导能推出函数可导吗？",
+    "category": "Theorem",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": 15,
+      "qwen-D2": 8
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Near Success"
+    }
+  },
+  {
+    "id": "C-Theorem-09",
+    "query": "函数和二阶导数有界时一阶导数的界如何估计？",
+    "category": "Theorem",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 8,
+      "e5-base": 1,
+      "e5-small": 12,
+      "qwen-D1": 18,
+      "qwen-D2": 21
+    },
+    "classes": {
+      "bge-m3": "Near Success",
+      "e5-base": "Success",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-Theorem-10",
+    "query": "二阶导数存在能否推出中心二阶差商收敛？",
+    "category": "Theorem",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Paraphrase-01",
+    "query": "一组坐标方向依次改成前几个方向的总和，这些新方向还能唯一表示每个向量吗？",
+    "category": "Paraphrase",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 21,
+      "e5-base": null,
+      "e5-small": 24,
+      "qwen-D1": 23,
+      "qwen-D2": 18
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-Paraphrase-02",
+    "query": "实方阵里互换两个指标会把元素变号，再加上对角位置全为正的阵，为什么不会丢掉逆？",
+    "category": "Paraphrase",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": 18,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Paraphrase-03",
+    "query": "把方阵对角线上所有数加起来，这个操作把哪些矩阵压到零，它们有多少自由度？",
+    "category": "Paraphrase",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Paraphrase-04",
+    "query": "一个线性操作做第二遍与做第一遍完全一样，整个空间怎样拆成被留下和被抹掉两部分？",
+    "category": "Paraphrase",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 50,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": 9,
+      "qwen-D2": 11
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Near Success",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-Paraphrase-05",
+    "query": "一个复数系数的多项式在每个实输入都给实输出，为什么各个系数其实也是实数？",
+    "category": "Paraphrase",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 2,
+      "e5-small": 2,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Paraphrase-06",
+    "query": "两个实数只要距离很近，函数值就一起接近；怎样用两列点的距离消失来检验这种共同控制？",
+    "category": "Paraphrase",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Paraphrase-07",
+    "query": "连续曲线把一段闭区间里的点都送回这段里，为什么总有一个点送完没有动？",
+    "category": "Paraphrase",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": 23
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-Paraphrase-08",
+    "query": "曲线上某点的左右两点一起贴近它，左右两点连线的斜率会到哪里去？",
+    "category": "Paraphrase",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Paraphrase-09",
+    "query": "把图像离横轴的距离当作新函数，这个新函数在某点能求斜率且原函数连续，为何原图像也能求斜率？",
+    "category": "Paraphrase",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Paraphrase-10",
+    "query": "不直接求出面积原函数，只拿越来越细的长方条从上下夹住曲线面积，怎样得到带误差界的数值？",
+    "category": "Paraphrase",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": 50,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Relation-01",
+    "query": "m个向量的秩为r时，全部线性依赖关系的系数空间为何有m-r维？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 10,
+      "e5-base": 2,
+      "e5-small": 2,
+      "qwen-D1": 5,
+      "qwen-D2": 5
+    },
+    "classes": {
+      "bge-m3": "Near Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Relation-02",
+    "query": "AB为零时A和B的秩之和与中间维数有什么关系？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 18,
+      "e5-base": 16,
+      "e5-small": null,
+      "qwen-D1": 11,
+      "qwen-D2": 3
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Relation-03",
+    "query": "定义域维数大于值域维数的线性映射为何必有非零核？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 9,
+      "e5-base": 14,
+      "e5-small": 15,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Near Success",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Relation-04",
+    "query": "满线性映射能否在核的补空间上变成到值域的同构？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 3,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Relation-05",
+    "query": "矩阵的不变因子怎样同时决定特征多项式和极小多项式？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 13,
+      "e5-base": 31,
+      "e5-small": 15,
+      "qwen-D1": null,
+      "qwen-D2": 42
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-Relation-06",
+    "query": "若A有互异特征值且AB=BA，A的特征子空间对B有什么性质？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 3,
+      "e5-base": 5,
+      "e5-small": 34,
+      "qwen-D1": 2,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Relation-07",
+    "query": "A转置乘B等于BA且B正定，怎样联系自伴随算子与A可对角化？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 2,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-Relation-08",
+    "query": "正数列相邻项之比趋向l时，n次方根是否也趋向l？",
+    "category": "Relation",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Relation-09",
+    "query": "函数二阶导数与中心二阶差商极限是什么关系？",
+    "category": "Relation",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-Relation-10",
+    "query": "所有内积两两为负的非零向量，个数怎样受欧氏空间维数限制？",
+    "category": "Relation",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 3,
+      "e5-base": 4,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-01",
+    "query": "找讨论一组基的循环相邻和是否线性无关的例题",
+    "category": "SimilarProblem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 29,
+      "e5-base": 12,
+      "e5-small": 27,
+      "qwen-D1": 34,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-02",
+    "query": "找以矩阵乘积为零并结合奇偶阶数证明另一矩阵奇异的例题",
+    "category": "SimilarProblem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 8,
+      "qwen-D1": 3,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Near Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-03",
+    "query": "找反对称矩阵加正对角阵的可逆性证明题",
+    "category": "SimilarProblem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-04",
+    "query": "找计算迹为零矩阵空间的维数和基的题",
+    "category": "SimilarProblem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 2,
+      "e5-small": 3,
+      "qwen-D1": 2,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-05",
+    "query": "找将多项式所有非零根换成倒数后求新多项式的题",
+    "category": "SimilarProblem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 3,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-06",
+    "query": "找利用共同特征向量证明可交换矩阵可对角化的题",
+    "category": "SimilarProblem",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 2,
+      "e5-base": 23,
+      "e5-small": 31,
+      "qwen-D1": 10,
+      "qwen-D2": 3
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Near Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-07",
+    "query": "找圆周上连续函数在某条直径两端取相同值的题",
+    "category": "SimilarProblem",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 1,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-08",
+    "query": "找函数值和二阶导数有界从而控制一阶导数的题",
+    "category": "SimilarProblem",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 26,
+      "e5-base": 1,
+      "e5-small": 22,
+      "qwen-D1": 47,
+      "qwen-D2": 34
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Success",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-09",
+    "query": "找用三角函数的高阶导数证明三角不等式的题",
+    "category": "SimilarProblem",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": 28,
+      "qwen-D2": 9
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Near Success"
+    }
+  },
+  {
+    "id": "C-SimilarProblem-10",
+    "query": "找用积分核近似连续函数端点值的题",
+    "category": "SimilarProblem",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-01",
+    "query": "哪里用构造分块矩阵并做初等变换来证明矩阵秩的下界？",
+    "category": "MethodSimilarity",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 10,
+      "e5-base": 19,
+      "e5-small": 31,
+      "qwen-D1": 25,
+      "qwen-D2": 16
+    },
+    "classes": {
+      "bge-m3": "Near Success",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-02",
+    "query": "哪里把零解唯一性和二次型正性结合起来证明可逆？",
+    "category": "MethodSimilarity",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": 42,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-03",
+    "query": "哪里先把核的一组基扩张成全空间基，再限制映射得到同构？",
+    "category": "MethodSimilarity",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 1,
+      "e5-small": 1,
+      "qwen-D1": 8,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Near Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-04",
+    "query": "哪里用Vandermonde矩阵和插值把函数值的信息转成多项式系数的信息？",
+    "category": "MethodSimilarity",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 15,
+      "e5-base": 8,
+      "e5-small": null,
+      "qwen-D1": 6,
+      "qwen-D2": 4
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Near Success",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Near Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-05",
+    "query": "哪里通过不变子空间上的归纳同时化简两个可交换算子？",
+    "category": "MethodSimilarity",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 33,
+      "e5-base": 8,
+      "e5-small": 12,
+      "qwen-D1": 12,
+      "qwen-D2": 26
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Near Success",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-06",
+    "query": "哪里通过正定矩阵开平方把算子转成实对称矩阵来证明对角化？",
+    "category": "MethodSimilarity",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 3,
+      "e5-small": 1,
+      "qwen-D1": 4,
+      "qwen-D2": 7
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Near Success"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-07",
+    "query": "哪里构造对径点函数值的差，再用正负号变化找到零点？",
+    "category": "MethodSimilarity",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 47,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": 8,
+      "qwen-D2": 14
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Near Success",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-08",
+    "query": "哪里用反证法制造靠近的两列点和不靠近的两列函数值？",
+    "category": "MethodSimilarity",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-09",
+    "query": "哪里反复应用求导极限法计算中心高阶差商？",
+    "category": "MethodSimilarity",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 32,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-MethodSimilarity-10",
+    "query": "哪里先给零均值周期函数构造有界原函数，再分部积分处理振荡积分极限？",
+    "category": "MethodSimilarity",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-HardNegative-01",
+    "query": "不是仅仅找线性同构定义，我要满射在核的补空间上成为同构的证明。",
+    "category": "HardNegative",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 4,
+      "e5-base": 4,
+      "e5-small": 5,
+      "qwen-D1": 1,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-HardNegative-02",
+    "query": "找幂等投影的像与核分解，不是迹为零矩阵的空间。",
+    "category": "HardNegative",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 17,
+      "e5-base": 2,
+      "e5-small": null,
+      "qwen-D1": 1,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Success",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-HardNegative-03",
+    "query": "问没有重根的判别，不是奇数次实多项式至少有实根。",
+    "category": "HardNegative",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 12,
+      "e5-base": null,
+      "e5-small": 18,
+      "qwen-D1": 47,
+      "qwen-D2": 39
+    },
+    "classes": {
+      "bge-m3": "Ranking Opportunity",
+      "e5-base": "Recall Failure",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Ranking Opportunity"
+    }
+  },
+  {
+    "id": "C-HardNegative-04",
+    "query": "我要的是多项式在所有实输入取实值推出实系数，不是代数基本定理。",
+    "category": "HardNegative",
+    "subject": "algebra",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 1,
+      "e5-base": 3,
+      "e5-small": 1,
+      "qwen-D1": 4,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Success",
+      "e5-small": "Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-HardNegative-05",
+    "query": "B只半正定时A转置B等于BA还保证A可对角化吗？找反例。",
+    "category": "HardNegative",
+    "subject": "algebra",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 3,
+      "e5-base": 6,
+      "e5-small": 7,
+      "qwen-D1": 3,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Near Success",
+      "e5-small": "Near Success",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-HardNegative-06",
+    "query": "问一致连续和保持基本序列的等价，不是用基本序列定义实数。",
+    "category": "HardNegative",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 6,
+      "e5-base": 16,
+      "e5-small": null,
+      "qwen-D1": 7,
+      "qwen-D2": 2
+    },
+    "classes": {
+      "bge-m3": "Near Success",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Near Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-HardNegative-07",
+    "query": "要找有二阶对称导数却没有普通二阶导数的反例，不是普通导数存在的充分结论。",
+    "category": "HardNegative",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": 2,
+      "e5-base": 39,
+      "e5-small": 25,
+      "qwen-D1": 2,
+      "qwen-D2": 1
+    },
+    "classes": {
+      "bge-m3": "Success",
+      "e5-base": "Ranking Opportunity",
+      "e5-small": "Ranking Opportunity",
+      "qwen-D1": "Success",
+      "qwen-D2": "Success"
+    }
+  },
+  {
+    "id": "C-HardNegative-08",
+    "query": "我问绝对值可导推出原函数可导，不是左右两点割线斜率的极限。",
+    "category": "HardNegative",
+    "subject": "analysis",
+    "source_style": "text-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": 25,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Ranking Opportunity",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-HardNegative-09",
+    "query": "要用上下和夹估积分而非三角函数高阶求导证明不等式。",
+    "category": "HardNegative",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  },
+  {
+    "id": "C-HardNegative-10",
+    "query": "要积分核收缩到端点的极限，不是用连续自映射找固定点。",
+    "category": "HardNegative",
+    "subject": "analysis",
+    "source_style": "formula-heavy",
+    "first_relevant_rank": {
+      "bge-m3": null,
+      "e5-base": null,
+      "e5-small": null,
+      "qwen-D1": null,
+      "qwen-D2": null
+    },
+    "classes": {
+      "bge-m3": "Recall Failure",
+      "e5-base": "Recall Failure",
+      "e5-small": "Recall Failure",
+      "qwen-D1": "Recall Failure",
+      "qwen-D2": "Recall Failure"
+    }
+  }
+]

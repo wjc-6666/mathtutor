@@ -1,0 +1,97 @@
+def search(query,subject='all',docids=None,k=10,variant='full'):
+    start=time.perf_counter();profile=parse_query(query,subject);expansion=expand(profile)
+    if variant not in {'full','hybrid','keyword'}:raise ValueError('未知 V1.2 检索变体')
+    try:
+        if os.getenv('RETRIEVAL_VERSION','v12')=='v11':raise ValueError('手动选择 V1.1.1')
+        data=load()
+    except Exception as e:
+        from app.rag.service import retrieve
+        sources=retrieve(query,subject,docids,k)
+        return {'INDEX_VERSION':'v11','semantic_available':False,'fallback_reason':str(e),'query_profile':profile,'expansion':[],
+                'results':sources,'candidates':[],'evidence_bundle':bundle(sources,None,profile),'elapsed_ms':round((time.perf_counter()-start)*1000,2)}
+    records=data['records'];allowed=[i for i,r in enumerate(records) if (subject=='all' or r['subject']==subject) and (not docids or r['doc'] in docids)]
+    exact_records=[records[i] for i in allowed if normalize(records[i].get('label') or '') in profile['exact_identifiers']]
+    if variant=='full' and exact_records:
+        # A numerical identifier conveys little semantic information. Once it
+        # resolves, use only the actual matching textbook block to hypothesise
+        # related concepts/methods, with the provenance visible in Debug.
+        for field,key,kind in [('concepts','concepts','Concept'),('theorems','possible_theorems','Theorem'),('methods','possible_methods','Method')]:
+            for row in exact_records:
+                for name in row[field]:
+                    if name not in profile[key]:
+                        profile[key].append(name);profile['hypotheses'].append({'kind':kind,'name':name,'basis':'系统注解：编号命中原文的术语','confidence':'high','reason':f"源 chunk {row['id']} / PDF {row['page']}；不自动确认数学适用条件"})
+        expansion=expand(profile)
+    if not allowed:return {'INDEX_VERSION':INDEX_VERSION,'semantic_available':bool(data['engine']),'fallback_reason':None,'query_profile':profile,'expansion':expansion,'results':[],'candidates':[],'evidence_bundle':bundle([],data,profile),'elapsed_ms':0}
+    raw=data['bm25'].score(query);expanded=[0.]*len(records)
+    if variant=='full':
+        for item in expansion[1:]:
+            scores=data['bm25'].score(item['query'])
+            for i in allowed:expanded[i]=max(expanded[i],scores[i]*(.55 if item['confidence']=='medium' else .8))
+    semantic=[0.]*len(records);semantic_on=bool(data['engine']) and variant!='keyword';semantic_query=None
+    if semantic_on:
+        # Keep original sentence central; candidate hypotheses contribute only
+        # through lexical/metadata channels, not an unbounded vector expansion.
+        semantic_query=query
+        vector=data['engine'].embed([semantic_query],query=True)[0];semantic=(data['vectors']@vector).tolist()
+    maxraw=max([raw[i] for i in allowed]+[1]);maxexp=max([expanded[i] for i in allowed]+[1]);maxsem=max([semantic[i] for i in allowed]+[.001]);minsem=min(semantic[i] for i in allowed)
+    candidates=[]
+    for i in allowed:
+        r=records[i];ids=profile['exact_identifiers'];label=normalize(r.get('label') or '')
+        exact=1. if label and label in ids else (.15 if any(re.search(re.escape(x)+r'(?![\d.])',normalize(r['text'])) for x in ids) else 0.)
+        reason=[];metadata=0.
+        for field,key,tag in [('concepts','concepts','same_concept'),('methods','possible_methods','same_method'),('theorems','possible_theorems','same_theorem'),('problem_types','problem_type','same_problem_type')]:
+            shared=sorted(set(r[field])&set(profile[key] or []))
+            if shared:metadata+=min(.18,.09*len(shared));reason.append({'relation':tag,'entities':shared,'basis':'系统推断：术语/候选假设交集','confidence':'medium'})
+        if exact:reason.append({'relation':'exact_identifier' if exact==1 else 'identifier_mention','entities':ids,'basis':'教材 OCR 编号','confidence':'explicit'})
+        kw=raw[i]/maxraw;ex=expanded[i]/maxexp
+        sem=(semantic[i]-minsem)/max(1e-6,maxsem-minsem) if semantic_on else 0.
+        graph_edges=[e for e in data['edges'] if e['source']==r['id'] and e['target'] in profile['possible_methods']+profile['possible_theorems']]
+        graph=min(.12,.04*len(graph_edges)) if variant=='full' else 0.
+        base=.58*kw+.28*sem+(1000 if exact==1 else .08 if exact else 0)
+        final=base;structural=0.
+        if variant=='full':
+            final+=.28*ex+metadata+graph
+            if r['subject']==profile['subject'] and subject=='all':final+=.035
+            if profile['query_intent']=='explain_concept' and r['content_type'] in {'definition','theorem'}:final+=.12
+            if profile['query_intent']=='find_similar_problem' and r['content_type'] in {'example','exercise'}:final+=.08
+            if profile['query_intent']=='explain_concept':
+                # Prefer an explanation/definition that explicitly names the
+                # requested concept, instead of an unrelated worked example.
+                ntext=normalize(r['text'])
+                if r['content_type'] not in {'example','exercise'} and any(normalize(t) in ntext for t in profile['concepts']):
+                    if re.search(r'定义|所谓|充要条件|必要条件|利用定义',ntext):
+                        final+=.24;structural=.24+metadata+ex*.2
+        candidates.append((i,{'candidate_score':round(base,6),'exact_score':exact,'keyword_score':round(raw[i],6),'expansion_score':round(expanded[i],6),
+                              'semantic_score':round(semantic[i],6) if semantic_on else None,'metadata_score':round(metadata,6) if variant=='full' else 0.,
+                              'graph_score':graph,'structural_score':round(structural,6),'final_score':round(final,6),'relationship':reason,'graph_evidence':graph_edges}))
+    # Stage 1: union of lexical/dense/expanded/exact candidates, capped at 50.
+    pools=set();fusion=collections.defaultdict(float)
+    for channel in ['keyword_score','semantic_score','expansion_score','exact_score','structural_score']:
+        ranking=sorted(candidates,key=lambda x:x[1][channel] or 0,reverse=True)
+        for rank,(i,scores) in enumerate(ranking[:30],1):
+            if (scores[channel] or 0)>0:
+                pools.add(i);fusion[i]+=(1. if channel!='exact_score' else 2.)/(60+rank)
+    recalled=[x for x in candidates if x[0] in fixed_pool]
+    for i,scores in recalled:scores['candidate_rrf']=round(fusion[i],8)
+    reranked=sorted(recalled,key=lambda x:x[1]['final_score'],reverse=True)
+    def result(item):
+        i,sc=item;r=dict(records[i]);r.update(sc,score=sc['final_score'],semantic_available=semantic_on,retrieval_backend='local-e5-int8-hybrid' if semantic_on else 'v12-keyword',retrieval_mode=variant)
+        r['confidence']='explicit' if sc['exact_score']==1 else 'medium';r['basis']='教材 OCR 直接编号' if sc['exact_score']==1 else '系统检索推断；请核查原页'
+        return r
+    results=[result(x) for x in reranked[:k]]
+    candidates_result=[result(x) for x in reranked]
+    evidence=bundle(results,data,profile)
+    if variant=='full':
+        relevant_terms=set(profile['concepts']+profile['possible_theorems'])
+        # Auxiliary theory channel is separate from the ranked top-K benchmark.
+        # It uses actual recalled text, never synthesized statements/page IDs.
+        theories=[r for r in candidates_result if r['content_type'] not in {'example','exercise'} and relevant_terms&set(r['concepts']+r['theorems']) and re.search(r'定义|定理|准则|要点|公式',r['text'])]
+        for r in theories[:3]:
+            if not any(x['id']==r['id'] for x in evidence['core_theory']):evidence['core_theory'].append(r)
+        for r in evidence['core_theory']:
+            if r.get('page'):
+                page=bundle([r],None,profile)['source_pages'][0]
+                if page not in evidence['source_pages']:evidence['source_pages'].append(page)
+    return {'INDEX_VERSION':INDEX_VERSION,'semantic_available':semantic_on,'fallback_reason':None,'query_profile':profile,'expansion':expansion if variant=='full' else expansion[:1],
+            'results':results,'candidates':candidates_result,'candidate_count':len(recalled),'evidence_bundle':evidence,
+            'semantic_query':semantic_query,'reranker':'local-explainable-metadata-v1' if variant=='full' else None,'elapsed_ms':round((time.perf_counter()-start)*1000,2)}

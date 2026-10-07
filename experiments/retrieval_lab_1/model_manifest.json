@@ -1,0 +1,217 @@
+{
+  "models": [
+    {
+      "name": "e5-base",
+      "source": "Xenova/multilingual-e5-base",
+      "source_url": "https://huggingface.co/Xenova/multilingual-e5-base",
+      "revision": "1ec9243030a27d1a115d5c340572074c125b58b2",
+      "upstream": "intfloat/multilingual-e5-base",
+      "license": "mit",
+      "license_basis": "upstream license; third-party converter, not official weights",
+      "quantization": "dynamic INT8 ONNX; third-party conversion",
+      "weight": "onnx/model_quantized.onnx",
+      "files": {
+        "onnx/model_quantized.onnx": {
+          "bytes": 278647662,
+          "sha256": "df7a9a29309e3ad491e1783adf8baee710262cc06079c7cbab63c630277fac94",
+          "hub_sha256": "df7a9a29309e3ad491e1783adf8baee710262cc06079c7cbab63c630277fac94"
+        },
+        "tokenizer.json": {
+          "bytes": 17082660,
+          "sha256": "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626",
+          "hub_sha256": "62c24cdc13d4c9952d63718d6c9fa4c287974249e16b7ade6d5a85e7bbb75626"
+        },
+        "config.json": {
+          "bytes": 686,
+          "sha256": "4c27930e59106027abab56f7531c1fa6b14bbf31e8229ec36d68affa4e869bcd",
+          "hub_sha256": null
+        },
+        "README.md": {
+          "bytes": 1074,
+          "sha256": "e177e0dd7b06ec8f3b9b63158a6d5e1264298f2a20cfb9c8363cd8158af7db92",
+          "hub_sha256": null
+        }
+      },
+      "started_at": 1790948397.133239,
+      "status": "downloaded_verified",
+      "disk_bytes": 295732082,
+      "finished_at": 1790948765.9425135
+    },
+    {
+      "name": "bge-m3",
+      "source": "Xenova/bge-m3",
+      "source_url": "https://huggingface.co/Xenova/bge-m3",
+      "revision": "4de13258303883538bd53b696b452bf8099f0858",
+      "upstream": "BAAI/bge-m3",
+      "license": "mit",
+      "license_basis": "upstream license; third-party converter, not official weights",
+      "quantization": "dynamic INT8 ONNX; third-party conversion",
+      "weight": "onnx/model_quantized.onnx",
+      "files": {
+        "onnx/model_quantized.onnx": {
+          "bytes": 569694530,
+          "sha256": "0826f8c1ab9edf1801db86c61919d4d108e8bfc0b809ec823ad366882ff0b77d",
+          "hub_sha256": "0826f8c1ab9edf1801db86c61919d4d108e8bfc0b809ec823ad366882ff0b77d"
+        },
+        "tokenizer.json": {
+          "bytes": 17082821,
+          "sha256": "6710678b12670bc442b99edc952c4d996ae309a7020c1fa0096dd245c2faf790",
+          "hub_sha256": "6710678b12670bc442b99edc952c4d996ae309a7020c1fa0096dd245c2faf790"
+        },
+        "config.json": {
+          "bytes": 770,
+          "sha256": "734a79bf12d388c1467a4e3ab625f45de7f6906cffcfb93a1eca1787504bed95",
+          "hub_sha256": null
+        },
+        "README.md": {
+          "bytes": 3076,
+          "sha256": "dd0589fb62a392046192696d78fa8637db353eadca2df743ed3919a3163abec5",
+          "hub_sha256": null
+        }
+      },
+      "started_at": 1790948397.4465299,
+      "status": "downloaded_verified",
+      "disk_bytes": 586781197,
+      "finished_at": 1790949160.7641737
+    },
+    {
+      "name": "qwen-embedding",
+      "source": "onnx-community/Qwen3-Embedding-0.6B-ONNX",
+      "source_url": "https://huggingface.co/onnx-community/Qwen3-Embedding-0.6B-ONNX",
+      "revision": "c25a394dd583836952667c12f008335071b3f43d",
+      "upstream": "Qwen/Qwen3-Embedding-0.6B",
+      "license": "apache-2.0",
+      "license_basis": "upstream license; third-party converter, not official weights",
+      "quantization": "dynamic INT8 ONNX; third-party conversion",
+      "weight": "onnx/model_quantized.onnx",
+      "files": {
+        "onnx/model_quantized.onnx": {
+          "bytes": 613527631,
+          "sha256": "87cd124e0ef1fd1f223ebc283efccbaeac386d0b08344701c46975d0657b591f",
+          "hub_sha256": "87cd124e0ef1fd1f223ebc283efccbaeac386d0b08344701c46975d0657b591f"
+        },
+        "tokenizer.json": {
+          "bytes": 11423705,
+          "sha256": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a",
+          "hub_sha256": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a"
+        },
+        "config.json": {
+          "bytes": 1576,
+          "sha256": "66a10929782f3c9a3cd5dec90e2a95c60e05736134a63cd54479eeae80bed175",
+          "hub_sha256": null
+        },
+        "README.md": {
+          "bytes": 2413,
+          "sha256": "8f08d3205a023d3ff3f065d58a386f127efa3fe432dc61db3721e35c6716a0dd",
+          "hub_sha256": null
+        }
+      },
+      "started_at": 1790948397.3149087,
+      "status": "downloaded_verified",
+      "disk_bytes": 624955325,
+      "finished_at": 1790949070.94907
+    },
+    {
+      "name": "bge-reranker",
+      "source": "onnx-community/bge-reranker-v2-m3-ONNX",
+      "source_url": "https://huggingface.co/onnx-community/bge-reranker-v2-m3-ONNX",
+      "revision": "6f5ff65298512715a1e669753bc754d2bc8f367b",
+      "upstream": "BAAI/bge-reranker-v2-m3",
+      "license": "apache-2.0",
+      "license_basis": "upstream license; third-party converter, not official weights",
+      "quantization": "dynamic INT8 ONNX; third-party conversion",
+      "weight": "onnx/model_quantized.onnx",
+      "files": {
+        "onnx/model_quantized.onnx": {
+          "bytes": 570727094,
+          "sha256": "912fc1215c2dbff6499700534bd8d31253af01573861abbfc43afd1fab6cce5d",
+          "hub_sha256": "912fc1215c2dbff6499700534bd8d31253af01573861abbfc43afd1fab6cce5d"
+        },
+        "tokenizer.json": {
+          "bytes": 17082900,
+          "sha256": "8bf8afbfd11306bd872018c53bfdf2e160a56f8edbcf49933324404791c148d3",
+          "hub_sha256": "8bf8afbfd11306bd872018c53bfdf2e160a56f8edbcf49933324404791c148d3"
+        },
+        "config.json": {
+          "bytes": 848,
+          "sha256": "122e922dcfed6503c8721e6fe1daf090340c3d95ca7f3aa3a72730b321a51cfd",
+          "hub_sha256": null
+        },
+        "README.md": {
+          "bytes": 885,
+          "sha256": "8540f1da639aec1141c936552f63b6860ba8a30fb99f27878ef80d46ed07e81e",
+          "hub_sha256": null
+        }
+      },
+      "started_at": 1790948773.6570246,
+      "status": "downloaded_verified",
+      "disk_bytes": 587811727,
+      "finished_at": 1790949681.3771234
+    },
+    {
+      "name": "qwen-reranker",
+      "source": "onnx-community/Qwen3-Reranker-0.6B-ONNX",
+      "source_url": "https://huggingface.co/onnx-community/Qwen3-Reranker-0.6B-ONNX",
+      "revision": "9995c50e2310679108a55f5ccd16ba8be9f17c20",
+      "upstream": "Qwen/Qwen3-Reranker-0.6B",
+      "license": "apache-2.0",
+      "license_basis": "upstream license; third-party converter, not official weights",
+      "quantization": "dynamic INT8 ONNX; third-party conversion",
+      "weight": "onnx/model_quantized.onnx",
+      "files": {
+        "onnx/model_quantized.onnx": {
+          "bytes": 1219344796,
+          "sha256": "c9428382bb48bb31e01a6034647c86d6270761781735cafbf6d5cb4a396d0450",
+          "hub_sha256": "c9428382bb48bb31e01a6034647c86d6270761781735cafbf6d5cb4a396d0450"
+        },
+        "tokenizer.json": {
+          "bytes": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "hub_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        "config.json": {
+          "bytes": 1359,
+          "sha256": "ea7e71d263350d75f8fd0ad710328e96453be8ce2aa9dfe296000ee1366bb869",
+          "hub_sha256": null
+        },
+        "README.md": {
+          "bytes": 4405,
+          "sha256": "775a3ecf448cf68de687447a9e67d9e0e0a5d9684912003dab589062832fa229",
+          "hub_sha256": null
+        }
+      },
+      "started_at": 1790949080.1742306,
+      "status": "downloaded_verified",
+      "disk_bytes": 1230773214,
+      "finished_at": 1790950148.7486324
+    }
+  ],
+  "remote_inference": false,
+  "baseline": {
+    "repository": "Xenova/multilingual-e5-small",
+    "revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "base_model": "intfloat/multilingual-e5-small",
+    "base_license": "MIT",
+    "files": {
+      "onnx/model_quantized.onnx": {
+        "bytes": 118308185,
+        "sha256": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193"
+      },
+      "tokenizer.json": {
+        "bytes": 17082730,
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      },
+      "config.json": {
+        "bytes": 658,
+        "sha256": "cb99455288675345e1a4f411438d5d0adbba5fbd3a67ea4fb03c015433b996c1"
+      },
+      "tokenizer_config.json": {
+        "bytes": 443,
+        "sha256": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b"
+      }
+    },
+    "name": "e5-small",
+    "source_url": "https://huggingface.co/Xenova/multilingual-e5-small",
+    "directory": "existing baseline read-only"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "variant": "qwen-D2",
+  "completed": 80,
+  "total": 80,
+  "elapsed_seconds": 61.90355050005019,
+  "rss_bytes": 143540224,
+  "peak_rss_bytes": 143540224,
+  "private_bytes": 643366912
+}

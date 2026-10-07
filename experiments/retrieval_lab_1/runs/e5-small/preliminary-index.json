@@ -1,0 +1,15 @@
+{
+  "corpus_sha256": "eebce148636198b00707a4b95adaea1e5f02e869867143038d31966a2903d07f",
+  "records": 3800,
+  "dimensions": 384,
+  "disk_bytes": 5836928,
+  "index_seconds": 133.86136989993975,
+  "index_cpu_seconds": 531.328125,
+  "index_process_cpu_percent": 396.9241651995369,
+  "tokens": 835423,
+  "truncated_passages": 833,
+  "max_length": 384,
+  "rss_bytes": 1215156224,
+  "peak_rss_bytes": 1218793472,
+  "private_bytes": 1846276096
+}

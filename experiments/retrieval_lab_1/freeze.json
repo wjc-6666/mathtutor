@@ -1,0 +1,134 @@
+{
+  "test_sha256": "359f8d4220cd6a9bd83560e91df67389f776068d13a8b7b8cbffdb8aec8c5667",
+  "frozen_at": 1790948777.512495,
+  "question_count": 80,
+  "categories": {
+    "Exact": 10,
+    "Concept": 10,
+    "Theorem": 10,
+    "Paraphrase": 10,
+    "Relation": 10,
+    "SimilarProblem": 10,
+    "MethodSimilarity": 10,
+    "HardNegative": 10
+  },
+  "subjects": {
+    "algebra": 45,
+    "analysis": 35
+  },
+  "source_pages": [
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      102
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      115
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      133
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      146
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      171
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      182
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      208
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      222
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      302
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      483
+    ],
+    [
+      "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+      64
+    ],
+    [
+      "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+      73
+    ],
+    [
+      "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+      81
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      154
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      169
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      175
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      225
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      231
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      248
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      266
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      320
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      332
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      366
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      508
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      552
+    ]
+  ],
+  "passages_sha256": "eebce148636198b00707a4b95adaea1e5f02e869867143038d31966a2903d07f",
+  "max_tokens": 384,
+  "threads": 4,
+  "topk": 50,
+  "subject_filter": false,
+  "qwen_instruction": "Retrieve textbook passages that solve, define, prove, or use the same mathematical concept, theorem, relation, or method as the query.",
+  "rerank_pool": "each frozen retriever raw Top50, no additional candidates",
+  "rerank_gate": "Test C Recall@50 >= 0.60; exploratory only",
+  "repeat": 2,
+  "no_tuning": true,
+  "promotion": false,
+  "resource_policy": "CPU only INT8; <=8GB model RSS; max 2h per indexing; no full GPU/PyTorch install",
+  "upgrade_gate": "para/relation >= +10 percentage points; overall no drop>2pp; protected Exact no drop; two core metrics improved; p95<=3s; repeat stable; exclude OCR-limited gains"
+}

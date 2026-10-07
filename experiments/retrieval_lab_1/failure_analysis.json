@@ -1,0 +1,2061 @@
+{
+  "test_sha256": "359f8d4220cd6a9bd83560e91df67389f776068d13a8b7b8cbffdb8aec8c5667",
+  "cases": [
+    {
+      "id": "C-Exact-01",
+      "query": "例3.37",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3,
+          "label": "例3.37"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "dense-only identifier mismatch",
+        "evidence": "The annotated example label exists in the frozen record metadata, but all five pure-dense conditions miss that exact labelled record in Top50. No lexical/exact bypass is allowed in Stage1. This is failure of dense-only reference lookup, not proof the production exact route fails.",
+        "scope": "strict example-label relevance"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-02",
+      "query": "例3.66",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3,
+          "label": "例3.66"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": 16,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-03",
+      "query": "例3.82",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3,
+          "label": "例3.82"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "dense-only identifier mismatch",
+        "evidence": "The annotated example label exists in the frozen record metadata, but all five pure-dense conditions miss that exact labelled record in Top50. No lexical/exact bypass is allowed in Stage1. This is failure of dense-only reference lookup, not proof the production exact route fails.",
+        "scope": "strict example-label relevance"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-04",
+      "query": "例4.39",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3,
+          "label": "例4.39"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "dense-only identifier mismatch",
+        "evidence": "The annotated example label exists in the frozen record metadata, but all five pure-dense conditions miss that exact labelled record in Top50. No lexical/exact bypass is allowed in Stage1. This is failure of dense-only reference lookup, not proof the production exact route fails.",
+        "scope": "strict example-label relevance"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-05",
+      "query": "例5.39",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3,
+          "label": "例5.39"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "dense-only identifier mismatch",
+        "evidence": "The annotated example label exists in the frozen record metadata, but all five pure-dense conditions miss that exact labelled record in Top50. No lexical/exact bypass is allowed in Stage1. This is failure of dense-only reference lookup, not proof the production exact route fails.",
+        "scope": "strict example-label relevance"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-06",
+      "query": "例6.62",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 3,
+          "label": "例6.62"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "dense-only identifier mismatch",
+        "evidence": "The annotated example label exists in the frozen record metadata, but all five pure-dense conditions miss that exact labelled record in Top50. No lexical/exact bypass is allowed in Stage1. This is failure of dense-only reference lookup, not proof the production exact route fails.",
+        "scope": "strict example-label relevance"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-07",
+      "query": "例2.1.13",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3,
+          "label": "例2.1.13"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": 8,
+        "e5-small": 1,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Near Success",
+        "e5-small": "Success",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-08",
+      "query": "例3.3.8",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 222,
+          "grade": 3,
+          "label": "例3.3.8"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": 44,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-09",
+      "query": "习题3.2.32",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3,
+          "label": "习题3.2.32"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": 1,
+        "e5-small": 1,
+        "qwen-D1": 23,
+        "qwen-D2": 3
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Success",
+        "e5-small": "Success",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Exact-10",
+      "query": "习题3.4.15",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 73,
+          "grade": 3,
+          "label": "习题3.4.15"
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": 22,
+        "qwen-D1": 21,
+        "qwen-D2": 2
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Concept-02",
+      "query": "多项式的零点和一次因式是什么关系？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 248,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 1,
+        "e5-base": 33,
+        "e5-small": 28,
+        "qwen-D1": 4,
+        "qwen-D2": 2
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Concept-03",
+      "query": "Frobenius标准型的块如何定义？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 366,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 1,
+        "e5-base": null,
+        "e5-small": 3,
+        "qwen-D1": 2,
+        "qwen-D2": 3
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Recall Failure",
+        "e5-small": "Success",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Concept-06",
+      "query": "用上下极限如何判别数列收敛？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 102,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 4,
+        "e5-base": 6,
+        "e5-small": null,
+        "qwen-D1": 1,
+        "qwen-D2": 1
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Near Success",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Concept-07",
+      "query": "一致连续可以用两数列距离趋零来刻画吗？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 6,
+        "e5-base": null,
+        "e5-small": 28,
+        "qwen-D1": null,
+        "qwen-D2": 13
+      },
+      "failure_classes": {
+        "bge-m3": "Near Success",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Concept-10",
+      "query": "逐项求导的充分条件为何不一定是必要条件？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 483,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 2,
+        "e5-base": null,
+        "e5-small": 2,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Recall Failure",
+        "e5-small": "Success",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Theorem-02",
+      "query": "严格对角占优矩阵为什么非奇异？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 1,
+        "e5-base": 8,
+        "e5-small": 2,
+        "qwen-D1": 2,
+        "qwen-D2": 2
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Near Success",
+        "e5-small": "Success",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Theorem-03",
+      "query": "无重因式多项式与形式导数互素的充要条件",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 248,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 1,
+        "e5-base": 4,
+        "e5-small": 5,
+        "qwen-D1": 17,
+        "qwen-D2": 4
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Success",
+        "e5-small": "Success",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Theorem-05",
+      "query": "可交换且都可对角化的线性变换可同时对角化吗？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 320,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 9,
+        "e5-base": 16,
+        "e5-small": 1,
+        "qwen-D1": 1,
+        "qwen-D2": 3
+      },
+      "failure_classes": {
+        "bge-m3": "Near Success",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Success",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Theorem-06",
+      "query": "闭区间到自身的连续函数存在不动点的证明",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": 48,
+        "e5-small": null,
+        "qwen-D1": 48,
+        "qwen-D2": 45
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Theorem-08",
+      "query": "连续函数绝对值可导能推出函数可导吗？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 182,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": 15,
+        "qwen-D2": 8
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Near Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "partially-readable",
+        "evidence": "Same PDF 182; scalar function name inside absolute value missing, main implication partly recoverable from the proof.",
+        "scope": "mixed"
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Theorem-09",
+      "query": "函数和二阶导数有界时一阶导数的界如何估计？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 222,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 8,
+        "e5-base": 1,
+        "e5-small": 12,
+        "qwen-D1": 18,
+        "qwen-D2": 21
+      },
+      "failure_classes": {
+        "bge-m3": "Near Success",
+        "e5-base": "Success",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Theorem-10",
+      "query": "二阶导数存在能否推出中心二阶差商收敛？",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Solutions PDF 64, exercise 3.2.32: original states f''(0) exists and the central second difference quotient tends to f''(0). OCR has '尸', '不 2 _ 2' and loses derivative order and quotient. Its encoded passage lacks 二阶导数/中心差商, whereas the original formula is readable.",
+        "scope": "raw OCR formula damage plus prose-filtered representation"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Paraphrase-01",
+      "query": "一组坐标方向依次改成前几个方向的总和，这些新方向还能唯一表示每个向量吗？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 21,
+        "e5-base": null,
+        "e5-small": 24,
+        "qwen-D1": 23,
+        "qwen-D2": 18
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Paraphrase-02",
+      "query": "实方阵里互换两个指标会把元素变号，再加上对角位置全为正的阵，为什么不会丢掉逆？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": 18,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Paraphrase-03",
+      "query": "把方阵对角线上所有数加起来，这个操作把哪些矩阵压到零，它们有多少自由度？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Algebra PDF 225 original example 4.39 explicitly defines trace as phi(A)=a11+a22+...+ann. That entire displayed equation is absent from both raw OCR and encoded passage. The query deliberately describes the diagonal sum without naming trace. Trace vocabulary, kernel dimension and proof prose survive, so the page is not wholly unreadable.",
+        "scope": "missing formula linking paraphrase to concept; not exclusive causal proof"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Paraphrase-04",
+      "query": "一个线性操作做第二遍与做第一遍完全一样，整个空间怎样拆成被留下和被抹掉两部分？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 231,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 50,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": 9,
+        "qwen-D2": 11
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Near Success",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Paraphrase-06",
+      "query": "两个实数只要距离很近，函数值就一起接近；怎样用两列点的距离消失来检验这种共同控制？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "query/passage-alignment evidence",
+        "evidence": "Analysis PDF 146 example 2.2.3 retains the words 一致连续, 两数列 and its necessary/sufficient formulation despite damaged symbols. Frozen C-Concept-07 names 一致连续 and BGE-M3 retrieves this page in Top10; frozen C-Paraphrase-06 describes close points/function values without the term, and BGE-M3 misses Top50. This paired observation indicates a missing semantic bridge, not proof of exclusive OCR or model causation.",
+        "scope": "existing frozen query pair, no query rewriting or extra alias"
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Paraphrase-07",
+      "query": "连续曲线把一段闭区间里的点都送回这段里，为什么总有一个点送完没有动？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": 23
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Paraphrase-08",
+      "query": "曲线上某点的左右两点一起贴近它，左右两点连线的斜率会到哪里去？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 171,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Analysis PDF 171 example 3.1.6 has clear alpha_n < x0 < beta_n and (f(beta_n)-f(alpha_n))/(beta_n-alpha_n) -> f'(x0). Existing OCR loses both converging endpoints and the quotient; the passage reduces the statement to 可微, < <, = 尸 and the convex weights without the slope relation.",
+        "scope": "formula-based secant-to-tangent semantics absent from text"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Paraphrase-09",
+      "query": "把图像离横轴的距离当作新函数，这个新函数在某点能求斜率且原函数连续，为何原图像也能求斜率？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 182,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "partially-readable",
+        "evidence": "Analysis PDF 182 exercise 3.1.12 original absolute-value function is differentiable; OCR statement reduces |f| to a bare '|', but proof still contains continuous, 保号性 and cases. End of the long multi-exercise passage is truncated at the 384-token E5 cap.",
+        "scope": "mixed OCR and truncation; cannot assign failure exclusively to model or source"
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Paraphrase-10",
+      "query": "不直接求出面积原函数，只拿越来越细的长方条从上下夹住曲线面积，怎样得到带误差界的数值？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 302,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": 50,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "query/passage-alignment evidence",
+        "evidence": "Analysis PDF 302 retains readable prose about no elementary antiderivative, estimating integrals and Darboux sums. Frozen C-Concept-09 names Darboux and BGE-M3 finds the page within Top10; C-Paraphrase-10 describes upper/lower rectangles and error bounds without the term, and BGE-M3 misses Top50. Mathematical formulas are damaged, but the named concept remains retrievable.",
+        "scope": "paired descriptive versus named query on the same frozen target page; not an exclusive causal claim"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Relation-01",
+      "query": "m个向量的秩为r时，全部线性依赖关系的系数空间为何有m-r维？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 10,
+        "e5-base": 2,
+        "e5-small": 2,
+        "qwen-D1": 5,
+        "qwen-D2": 5
+      },
+      "failure_classes": {
+        "bge-m3": "Near Success",
+        "e5-base": "Success",
+        "e5-small": "Success",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Relation-02",
+      "query": "AB为零时A和B的秩之和与中间维数有什么关系？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 18,
+        "e5-base": 16,
+        "e5-small": null,
+        "qwen-D1": 11,
+        "qwen-D2": 3
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Relation-03",
+      "query": "定义域维数大于值域维数的线性映射为何必有非零核？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 9,
+        "e5-base": 14,
+        "e5-small": 15,
+        "qwen-D1": 1,
+        "qwen-D2": 1
+      },
+      "failure_classes": {
+        "bge-m3": "Near Success",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-Relation-05",
+      "query": "矩阵的不变因子怎样同时决定特征多项式和极小多项式？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 366,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 13,
+        "e5-base": 31,
+        "e5-small": 15,
+        "qwen-D1": null,
+        "qwen-D2": 42
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "representation-limited",
+        "evidence": "Algebra PDF 366 original explicitly gives characteristic polynomial as product of invariant factors and minimal polynomial as largest invariant factor. The encoded passage has '特征多项式是（ ）d2因一司，极小多项' and drops the product/largest-factor equation.",
+        "scope": "OCR/formula line filtering; retained invariant-factor vocabulary may still retrieve the page"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Relation-06",
+      "query": "若A有互异特征值且AB=BA，A的特征子空间对B有什么性质？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 3,
+        "e5-base": 5,
+        "e5-small": 34,
+        "qwen-D1": 2,
+        "qwen-D2": 2
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Success",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Relation-08",
+      "query": "正数列相邻项之比趋向l时，n次方根是否也趋向l？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 102,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Analysis PDF 102 example 1.6.6 clearly states lim x_(n+1)/x_n = l implies lim nth-root(x_n) = l. Raw OCR/encoded passage loses the ratio and nth-root equation; only each式相乘，并开n次方 and generic limit prose remain.",
+        "scope": "critical mathematical relation omitted; not an exclusive causal claim"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-Relation-09",
+      "query": "函数二阶导数与中心二阶差商极限是什么关系？",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Same original exercise 3.2.32; derivative order, denominator and limit relation absent from readable passage.",
+        "scope": "raw OCR formula damage"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-SimilarProblem-01",
+      "query": "找讨论一组基的循环相邻和是否线性无关的例题",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 29,
+        "e5-base": 12,
+        "e5-small": 27,
+        "qwen-D1": 34,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-SimilarProblem-02",
+      "query": "找以矩阵乘积为零并结合奇偶阶数证明另一矩阵奇异的例题",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 1,
+        "e5-base": 1,
+        "e5-small": 8,
+        "qwen-D1": 3,
+        "qwen-D2": 2
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Success",
+        "e5-small": "Near Success",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-SimilarProblem-03",
+      "query": "找反对称矩阵加正对角阵的可逆性证明题",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "mixed source/query failure",
+        "evidence": "Algebra PDF175 example3.82 retains 实反对称阵, 同阶对角阵, 主对角元素全大于零. The target A+D determinant/invertibility equation is broken into +0>0 and 非异车, and old metadata marks 连续 from later proof prose. All dense conditions miss Top50; text is partly identifiable but relation/formulas are damaged.",
+        "scope": "model-input failure jointly involving formula OCR and query alignment; exclusive attribution undetermined"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-SimilarProblem-06",
+      "query": "找利用共同特征向量证明可交换矩阵可对角化的题",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 2,
+        "e5-base": 23,
+        "e5-small": 31,
+        "qwen-D1": 10,
+        "qwen-D2": 3
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Near Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-SimilarProblem-08",
+      "query": "找函数值和二阶导数有界从而控制一阶导数的题",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 222,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 26,
+        "e5-base": 1,
+        "e5-small": 22,
+        "qwen-D1": 47,
+        "qwen-D2": 34
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Success",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-SimilarProblem-09",
+      "query": "找用三角函数的高阶导数证明三角不等式的题",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 73,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": 28,
+        "qwen-D2": 9
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Near Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-SimilarProblem-10",
+      "query": "找用积分核近似连续函数端点值的题",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 81,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Solutions PDF 81 P254 exercise kernels n/(1+n^2 x^2) and normalized (x-a)^n are readable on the original; existing encoded passage contains '712 2 + 1', lost integrals and normalized factors.",
+        "scope": "raw OCR formula damage"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-MethodSimilarity-01",
+      "query": "哪里用构造分块矩阵并做初等变换来证明矩阵秩的下界？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 10,
+        "e5-base": 19,
+        "e5-small": 31,
+        "qwen-D1": 25,
+        "qwen-D2": 16
+      },
+      "failure_classes": {
+        "bge-m3": "Near Success",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-MethodSimilarity-02",
+      "query": "哪里把零解唯一性和二次型正性结合起来证明可逆？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": 42,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-MethodSimilarity-03",
+      "query": "哪里先把核的一组基扩张成全空间基，再限制映射得到同构？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 1,
+        "e5-base": 1,
+        "e5-small": 1,
+        "qwen-D1": 8,
+        "qwen-D2": 1
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Success",
+        "e5-small": "Success",
+        "qwen-D1": "Near Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-MethodSimilarity-04",
+      "query": "哪里用Vandermonde矩阵和插值把函数值的信息转成多项式系数的信息？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 15,
+        "e5-base": 8,
+        "e5-small": null,
+        "qwen-D1": 6,
+        "qwen-D2": 4
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Near Success",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Near Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-MethodSimilarity-05",
+      "query": "哪里通过不变子空间上的归纳同时化简两个可交换算子？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 320,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 33,
+        "e5-base": 8,
+        "e5-small": 12,
+        "qwen-D1": 12,
+        "qwen-D2": 26
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Near Success",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-MethodSimilarity-06",
+      "query": "哪里通过正定矩阵开平方把算子转成实对称矩阵来证明对角化？",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 552,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 1,
+        "e5-base": 3,
+        "e5-small": 1,
+        "qwen-D1": 4,
+        "qwen-D2": 7
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Success",
+        "e5-small": "Success",
+        "qwen-D1": "Success",
+        "qwen-D2": "Near Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-MethodSimilarity-07",
+      "query": "哪里构造对径点函数值的差，再用正负号变化找到零点？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 47,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": 8,
+        "qwen-D2": 14
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Near Success",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-MethodSimilarity-08",
+      "query": "哪里用反证法制造靠近的两列点和不靠近的两列函数值？",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "query/passage-alignment evidence",
+        "evidence": "Same Analysis PDF146 two-sequence characterization; encoded proof retains 充分性, 非一致连续, two sequences and 矛盾, but formulas describing close inputs/non-close outputs are noisy. Named concept query is retrievable; this method description is absent from all dense Top50.",
+        "scope": "mixed query-method bridge and damaged formulas; exclusive cause undetermined"
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-MethodSimilarity-09",
+      "query": "哪里反复应用求导极限法计算中心高阶差商？",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 32,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Original PDF 64 shows repeated differentiation/l'Hopital steps for central high-order difference quotients. Existing OCR symbols are broken; the method is implicit in formulas and not explicit in encoded prose.",
+        "scope": "formula-to-text method representation"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-MethodSimilarity-10",
+      "query": "哪里先给零均值周期函数构造有界原函数，再分部积分处理振荡积分极限？",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 81,
+          "grade": 3
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "PDF 81 P259 exercise original defines G(x)=integral from 0 to x of g(t), then uses integration by parts and Riemann lemma. Existing prose loses the integral definition and oscillatory integral target; a few periodicity sentences survive.",
+        "scope": "OCR plus formula filtering; method represented mostly in formulas"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-HardNegative-02",
+      "query": "找幂等投影的像与核分解，不是迹为零矩阵的空间。",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 231,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 17,
+        "e5-base": 2,
+        "e5-small": null,
+        "qwen-D1": 1,
+        "qwen-D2": 2
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Success",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-HardNegative-03",
+      "query": "问没有重根的判别，不是奇数次实多项式至少有实根。",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 248,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 12,
+        "e5-base": null,
+        "e5-small": 18,
+        "qwen-D1": 47,
+        "qwen-D2": 39
+      },
+      "failure_classes": {
+        "bge-m3": "Ranking Opportunity",
+        "e5-base": "Recall Failure",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Ranking Opportunity"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-HardNegative-05",
+      "query": "B只半正定时A转置B等于BA还保证A可对角化吗？找反例。",
+      "targets": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 552,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 3,
+        "e5-base": 6,
+        "e5-small": 7,
+        "qwen-D1": 3,
+        "qwen-D2": 1
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Near Success",
+        "e5-small": "Near Success",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-HardNegative-06",
+      "query": "问一致连续和保持基本序列的等价，不是用基本序列定义实数。",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 115,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 6,
+        "e5-base": 16,
+        "e5-small": null,
+        "qwen-D1": 7,
+        "qwen-D2": 2
+      },
+      "failure_classes": {
+        "bge-m3": "Near Success",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Near Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-HardNegative-07",
+      "query": "要找有二阶对称导数却没有普通二阶导数的反例，不是普通导数存在的充分结论。",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 208,
+          "grade": 3
+        },
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": 2,
+        "e5-base": 39,
+        "e5-small": 25,
+        "qwen-D1": 2,
+        "qwen-D2": 1
+      },
+      "failure_classes": {
+        "bge-m3": "Success",
+        "e5-base": "Ranking Opportunity",
+        "e5-small": "Ranking Opportunity",
+        "qwen-D1": "Success",
+        "qwen-D2": "Success"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-HardNegative-08",
+      "query": "我问绝对值可导推出原函数可导，不是左右两点割线斜率的极限。",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 182,
+          "grade": 3
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 171,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": 25,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Ranking Opportunity",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": false,
+      "source_review": {
+        "tag": "no exclusive source-cause attribution",
+        "evidence": "See read-only source_representation_audit.json. Missing annotated target is not proof that every returned passage is irrelevant."
+      },
+      "formula_heavy": false
+    },
+    {
+      "id": "C-HardNegative-09",
+      "query": "要用上下和夹估积分而非三角函数高阶求导证明不等式。",
+      "targets": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 302,
+          "grade": 3
+        },
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 73,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "readable-source retrieval failure",
+        "evidence": "Analysis PDF302 retains Darboux下/上和 and readable prose about integral value estimation. All dense conditions miss the annotated page for the query asking upper/lower sums while excluding high-order differentiation. Negated distractor terms may affect embedding; no clean-text counterfactual was run.",
+        "scope": "operational recall failure despite identifiable concept, not proof of exclusive model causation"
+      },
+      "formula_heavy": true
+    },
+    {
+      "id": "C-HardNegative-10",
+      "query": "要积分核收缩到端点的极限，不是用连续自映射找固定点。",
+      "targets": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 81,
+          "grade": 3
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 0
+        }
+      ],
+      "first_ranks": {
+        "bge-m3": null,
+        "e5-base": null,
+        "e5-small": null,
+        "qwen-D1": null,
+        "qwen-D2": null
+      },
+      "failure_classes": {
+        "bge-m3": "Recall Failure",
+        "e5-base": "Recall Failure",
+        "e5-small": "Recall Failure",
+        "qwen-D1": "Recall Failure",
+        "qwen-D2": "Recall Failure"
+      },
+      "all_models_miss_top50": true,
+      "source_review": {
+        "tag": "OCR-limited",
+        "evidence": "Same solutions PDF 81 endpoint approximation; encoded text does not retain the complete kernel or normalization.",
+        "scope": "raw OCR formula damage"
+      },
+      "formula_heavy": true
+    }
+  ],
+  "common_failures": [
+    "C-Exact-01",
+    "C-Exact-03",
+    "C-Exact-04",
+    "C-Exact-05",
+    "C-Exact-06",
+    "C-Theorem-10",
+    "C-Paraphrase-03",
+    "C-Paraphrase-06",
+    "C-Paraphrase-08",
+    "C-Paraphrase-09",
+    "C-Relation-08",
+    "C-Relation-09",
+    "C-SimilarProblem-03",
+    "C-SimilarProblem-10",
+    "C-MethodSimilarity-08",
+    "C-MethodSimilarity-10",
+    "C-HardNegative-09",
+    "C-HardNegative-10"
+  ],
+  "common_OCR_limited": [
+    "C-Theorem-10",
+    "C-Paraphrase-03",
+    "C-Paraphrase-08",
+    "C-Relation-08",
+    "C-Relation-09",
+    "C-SimilarProblem-10",
+    "C-MethodSimilarity-10",
+    "C-HardNegative-10"
+  ],
+  "policy": "Do not count OCR-limited semantic gains toward model upgrade; cases can have multiple causes; no label changes"
+}

@@ -1,0 +1,1450 @@
+{
+  "name": "Retrieval Lab Test C",
+  "split": "frozen_test",
+  "created_at": 1790948777.4948077,
+  "questions": [
+    {
+      "id": "C-Exact-01",
+      "category": "Exact",
+      "query": "例3.37",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3,
+          "label": "例3.37"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-02",
+      "category": "Exact",
+      "query": "例3.66",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3,
+          "label": "例3.66"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-03",
+      "category": "Exact",
+      "query": "例3.82",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3,
+          "label": "例3.82"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-04",
+      "category": "Exact",
+      "query": "例4.39",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3,
+          "label": "例4.39"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-05",
+      "category": "Exact",
+      "query": "例5.39",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3,
+          "label": "例5.39"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-06",
+      "category": "Exact",
+      "query": "例6.62",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 3,
+          "label": "例6.62"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-07",
+      "category": "Exact",
+      "query": "例2.1.13",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3,
+          "label": "例2.1.13"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-08",
+      "category": "Exact",
+      "query": "例3.3.8",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 222,
+          "grade": 3,
+          "label": "例3.3.8"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-09",
+      "category": "Exact",
+      "query": "习题3.2.32",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3,
+          "label": "习题3.2.32"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Exact-10",
+      "category": "Exact",
+      "query": "习题3.4.15",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 73,
+          "grade": 3,
+          "label": "习题3.4.15"
+        }
+      ],
+      "annotation": "原页编号核对",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-01",
+      "category": "Concept",
+      "query": "投影变换与幂等变换的定义有什么联系？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 231,
+          "grade": 3
+        }
+      ],
+      "annotation": "幂等变换是投影变换",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-02",
+      "category": "Concept",
+      "query": "多项式的零点和一次因式是什么关系？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 248,
+          "grade": 3
+        }
+      ],
+      "annotation": "余数定理及零点定义",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-03",
+      "category": "Concept",
+      "query": "Frobenius标准型的块如何定义？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 366,
+          "grade": 3
+        }
+      ],
+      "annotation": "Frobenius块及有理标准型",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-04",
+      "category": "Concept",
+      "query": "Gram行列式的几何意义是什么？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 508,
+          "grade": 3
+        }
+      ],
+      "annotation": "平行多面体体积平方",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-05",
+      "category": "Concept",
+      "query": "Cantor怎样用有理数基本序列定义实数？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 115,
+          "grade": 3
+        }
+      ],
+      "annotation": "基本序列等价类",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-06",
+      "category": "Concept",
+      "query": "用上下极限如何判别数列收敛？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 102,
+          "grade": 3
+        }
+      ],
+      "annotation": "上下极限相等且有限",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-07",
+      "category": "Concept",
+      "query": "一致连续可以用两数列距离趋零来刻画吗？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        }
+      ],
+      "annotation": "例2.2.3序列判别",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-08",
+      "category": "Concept",
+      "query": "二阶对称导数与普通二阶导数有何区别？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 208,
+          "grade": 3
+        }
+      ],
+      "annotation": "二阶广义导数定义及反例",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-09",
+      "category": "Concept",
+      "query": "没有初等原函数时怎样用Darboux和估计积分？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 302,
+          "grade": 3
+        }
+      ],
+      "annotation": "上、下和夹估",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Concept-10",
+      "category": "Concept",
+      "query": "逐项求导的充分条件为何不一定是必要条件？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 483,
+          "grade": 3
+        }
+      ],
+      "annotation": "例5.2.28不能用逐项求导定理",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-01",
+      "category": "Theorem",
+      "query": "Sylvester矩阵乘积秩不等式及其证明",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3
+        }
+      ],
+      "annotation": "r(AB)>=r(A)+r(B)-n",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-02",
+      "category": "Theorem",
+      "query": "严格对角占优矩阵为什么非奇异？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.83",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-03",
+      "category": "Theorem",
+      "query": "无重因式多项式与形式导数互素的充要条件",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 248,
+          "grade": 3
+        }
+      ],
+      "annotation": "无重因式定理",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-04",
+      "category": "Theorem",
+      "query": "奇数次实系数多项式必有实根的证明",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3
+        }
+      ],
+      "annotation": "例5.40",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-05",
+      "category": "Theorem",
+      "query": "可交换且都可对角化的线性变换可同时对角化吗？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 320,
+          "grade": 3
+        }
+      ],
+      "annotation": "例6.41",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-06",
+      "category": "Theorem",
+      "query": "闭区间到自身的连续函数存在不动点的证明",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3
+        }
+      ],
+      "annotation": "例2.1.13",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-07",
+      "category": "Theorem",
+      "query": "有限区间上一致连续等价于保持Cauchy序列的证明",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        }
+      ],
+      "annotation": "例2.2.4有限区间条件",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-08",
+      "category": "Theorem",
+      "query": "连续函数绝对值可导能推出函数可导吗？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 182,
+          "grade": 3
+        }
+      ],
+      "annotation": "练习3.1.12",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-09",
+      "category": "Theorem",
+      "query": "函数和二阶导数有界时一阶导数的界如何估计？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 222,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.3.9 Landau型不等式",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Theorem-10",
+      "category": "Theorem",
+      "query": "二阶导数存在能否推出中心二阶差商收敛？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3
+        }
+      ],
+      "annotation": "习题3.2.32",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-01",
+      "category": "Paraphrase",
+      "query": "一组坐标方向依次改成前几个方向的总和，这些新方向还能唯一表示每个向量吗？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3
+        }
+      ],
+      "annotation": "前缀和基例3.38",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-02",
+      "category": "Paraphrase",
+      "query": "实方阵里互换两个指标会把元素变号，再加上对角位置全为正的阵，为什么不会丢掉逆？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "annotation": "反对称加正对角例3.82",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-03",
+      "category": "Paraphrase",
+      "query": "把方阵对角线上所有数加起来，这个操作把哪些矩阵压到零，它们有多少自由度？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "annotation": "迹映射核n^2-1例4.39",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-04",
+      "category": "Paraphrase",
+      "query": "一个线性操作做第二遍与做第一遍完全一样，整个空间怎样拆成被留下和被抹掉两部分？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 231,
+          "grade": 3
+        }
+      ],
+      "annotation": "幂等的像与核直和",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-05",
+      "category": "Paraphrase",
+      "query": "一个复数系数的多项式在每个实输入都给实输出，为什么各个系数其实也是实数？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3
+        }
+      ],
+      "annotation": "例5.39插值Vandermonde",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-06",
+      "category": "Paraphrase",
+      "query": "两个实数只要距离很近，函数值就一起接近；怎样用两列点的距离消失来检验这种共同控制？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        }
+      ],
+      "annotation": "一致连续序列标准",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-07",
+      "category": "Paraphrase",
+      "query": "连续曲线把一段闭区间里的点都送回这段里，为什么总有一个点送完没有动？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3
+        }
+      ],
+      "annotation": "不动点",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-08",
+      "category": "Paraphrase",
+      "query": "曲线上某点的左右两点一起贴近它，左右两点连线的斜率会到哪里去？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 171,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.1.6跨点差商极限",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-09",
+      "category": "Paraphrase",
+      "query": "把图像离横轴的距离当作新函数，这个新函数在某点能求斜率且原函数连续，为何原图像也能求斜率？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 182,
+          "grade": 3
+        }
+      ],
+      "annotation": "绝对值可导推出可导",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Paraphrase-10",
+      "category": "Paraphrase",
+      "query": "不直接求出面积原函数，只拿越来越细的长方条从上下夹住曲线面积，怎样得到带误差界的数值？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 302,
+          "grade": 3
+        }
+      ],
+      "annotation": "Darboux积分估计",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-01",
+      "category": "Relation",
+      "query": "m个向量的秩为r时，全部线性依赖关系的系数空间为何有m-r维？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.37关系空间",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-02",
+      "category": "Relation",
+      "query": "AB为零时A和B的秩之和与中间维数有什么关系？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3
+        }
+      ],
+      "annotation": "Sylvester推论",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-03",
+      "category": "Relation",
+      "query": "定义域维数大于值域维数的线性映射为何必有非零核？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "annotation": "例4.40",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-04",
+      "category": "Relation",
+      "query": "满线性映射能否在核的补空间上变成到值域的同构？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "annotation": "例4.41",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-05",
+      "category": "Relation",
+      "query": "矩阵的不变因子怎样同时决定特征多项式和极小多项式？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 366,
+          "grade": 3
+        }
+      ],
+      "annotation": "不变因子乘积与最大因子",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-06",
+      "category": "Relation",
+      "query": "若A有互异特征值且AB=BA，A的特征子空间对B有什么性质？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 3
+        }
+      ],
+      "annotation": "例6.62一维不变子空间",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-07",
+      "category": "Relation",
+      "query": "A转置乘B等于BA且B正定，怎样联系自伴随算子与A可对角化？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 552,
+          "grade": 3
+        }
+      ],
+      "annotation": "例9.72",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-08",
+      "category": "Relation",
+      "query": "正数列相邻项之比趋向l时，n次方根是否也趋向l？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 102,
+          "grade": 3
+        }
+      ],
+      "annotation": "例1.6.6比值与根极限",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-09",
+      "category": "Relation",
+      "query": "函数二阶导数与中心二阶差商极限是什么关系？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3
+        }
+      ],
+      "annotation": "习题3.2.32",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-Relation-10",
+      "category": "Relation",
+      "query": "所有内积两两为负的非零向量，个数怎样受欧氏空间维数限制？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 508,
+          "grade": 3
+        }
+      ],
+      "annotation": "例9.6至多n+1",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-01",
+      "category": "SimilarProblem",
+      "query": "找讨论一组基的循环相邻和是否线性无关的例题",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 154,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.39奇偶性",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-02",
+      "category": "SimilarProblem",
+      "query": "找以矩阵乘积为零并结合奇偶阶数证明另一矩阵奇异的例题",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.67",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-03",
+      "category": "SimilarProblem",
+      "query": "找反对称矩阵加正对角阵的可逆性证明题",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.82",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-04",
+      "category": "SimilarProblem",
+      "query": "找计算迹为零矩阵空间的维数和基的题",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "annotation": "例4.39",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-05",
+      "category": "SimilarProblem",
+      "query": "找将多项式所有非零根换成倒数后求新多项式的题",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3
+        }
+      ],
+      "annotation": "例5.37",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-06",
+      "category": "SimilarProblem",
+      "query": "找利用共同特征向量证明可交换矩阵可对角化的题",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 3
+        }
+      ],
+      "annotation": "例6.62",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-07",
+      "category": "SimilarProblem",
+      "query": "找圆周上连续函数在某条直径两端取相同值的题",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3
+        }
+      ],
+      "annotation": "例2.1.14",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-08",
+      "category": "SimilarProblem",
+      "query": "找函数值和二阶导数有界从而控制一阶导数的题",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 222,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.3.9",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-09",
+      "category": "SimilarProblem",
+      "query": "找用三角函数的高阶导数证明三角不等式的题",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 73,
+          "grade": 3
+        }
+      ],
+      "annotation": "习题3.4.13",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-SimilarProblem-10",
+      "category": "SimilarProblem",
+      "query": "找用积分核近似连续函数端点值的题",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 81,
+          "grade": 3
+        }
+      ],
+      "annotation": "P254两道练习",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-01",
+      "category": "MethodSimilarity",
+      "query": "哪里用构造分块矩阵并做初等变换来证明矩阵秩的下界？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 169,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.66分块变换",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-02",
+      "category": "MethodSimilarity",
+      "query": "哪里把零解唯一性和二次型正性结合起来证明可逆？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 175,
+          "grade": 3
+        }
+      ],
+      "annotation": "例3.82第一部分",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-03",
+      "category": "MethodSimilarity",
+      "query": "哪里先把核的一组基扩张成全空间基，再限制映射得到同构？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        }
+      ],
+      "annotation": "例4.41证法1",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-04",
+      "category": "MethodSimilarity",
+      "query": "哪里用Vandermonde矩阵和插值把函数值的信息转成多项式系数的信息？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3
+        }
+      ],
+      "annotation": "例5.39",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-05",
+      "category": "MethodSimilarity",
+      "query": "哪里通过不变子空间上的归纳同时化简两个可交换算子？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 320,
+          "grade": 3
+        }
+      ],
+      "annotation": "例6.40结尾归纳",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-06",
+      "category": "MethodSimilarity",
+      "query": "哪里通过正定矩阵开平方把算子转成实对称矩阵来证明对角化？",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 552,
+          "grade": 3
+        }
+      ],
+      "annotation": "例9.72证法1",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-07",
+      "category": "MethodSimilarity",
+      "query": "哪里构造对径点函数值的差，再用正负号变化找到零点？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 3
+        }
+      ],
+      "annotation": "例2.1.14",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-08",
+      "category": "MethodSimilarity",
+      "query": "哪里用反证法制造靠近的两列点和不靠近的两列函数值？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        }
+      ],
+      "annotation": "例2.2.3充分性",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-09",
+      "category": "MethodSimilarity",
+      "query": "哪里反复应用求导极限法计算中心高阶差商？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 3
+        }
+      ],
+      "annotation": "习题3.2.32/33 lHopital",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-MethodSimilarity-10",
+      "category": "MethodSimilarity",
+      "query": "哪里先给零均值周期函数构造有界原函数，再分部积分处理振荡积分极限？",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 81,
+          "grade": 3
+        }
+      ],
+      "annotation": "P259练习Riemann引理",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-01",
+      "category": "HardNegative",
+      "query": "不是仅仅找线性同构定义，我要满射在核的补空间上成为同构的证明。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 231,
+          "grade": 0
+        }
+      ],
+      "annotation": "例4.41补空间限制，单纯定义非目标",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-02",
+      "category": "HardNegative",
+      "query": "找幂等投影的像与核分解，不是迹为零矩阵的空间。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 231,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 225,
+          "grade": 0
+        }
+      ],
+      "annotation": "幂等直和分解",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-03",
+      "category": "HardNegative",
+      "query": "问没有重根的判别，不是奇数次实多项式至少有实根。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 248,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 0
+        }
+      ],
+      "annotation": "导数互素判别",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-04",
+      "category": "HardNegative",
+      "query": "我要的是多项式在所有实输入取实值推出实系数，不是代数基本定理。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 266,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 248,
+          "grade": 0
+        }
+      ],
+      "annotation": "例5.39",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-05",
+      "category": "HardNegative",
+      "query": "B只半正定时A转置B等于BA还保证A可对角化吗？找反例。",
+      "subject": "algebra",
+      "relevant": [
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 552,
+          "grade": 3
+        },
+        {
+          "book": "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+          "pdf_page": 332,
+          "grade": 0
+        }
+      ],
+      "annotation": "例9.72后半正定反例",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-06",
+      "category": "HardNegative",
+      "query": "问一致连续和保持基本序列的等价，不是用基本序列定义实数。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 146,
+          "grade": 3
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 115,
+          "grade": 0
+        }
+      ],
+      "annotation": "例2.2.4",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-07",
+      "category": "HardNegative",
+      "query": "要找有二阶对称导数却没有普通二阶导数的反例，不是普通导数存在的充分结论。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 208,
+          "grade": 3
+        },
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 64,
+          "grade": 0
+        }
+      ],
+      "annotation": "x|x|反例",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-08",
+      "category": "HardNegative",
+      "query": "我问绝对值可导推出原函数可导，不是左右两点割线斜率的极限。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 182,
+          "grade": 3
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 171,
+          "grade": 0
+        }
+      ],
+      "annotation": "练习3.1.12",
+      "source_style": "text-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-09",
+      "category": "HardNegative",
+      "query": "要用上下和夹估积分而非三角函数高阶求导证明不等式。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 302,
+          "grade": 3
+        },
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 73,
+          "grade": 0
+        }
+      ],
+      "annotation": "Darboux上下和",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    },
+    {
+      "id": "C-HardNegative-10",
+      "category": "HardNegative",
+      "query": "要积分核收缩到端点的极限，不是用连续自映射找固定点。",
+      "subject": "analysis",
+      "relevant": [
+        {
+          "book": "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+          "pdf_page": 81,
+          "grade": 3
+        },
+        {
+          "book": "数学分析中的典型问题与方法 (裴礼文).pdf",
+          "pdf_page": 133,
+          "grade": 0
+        }
+      ],
+      "annotation": "P254练习",
+      "source_style": "formula-heavy",
+      "verified": "original PDF page image, before model scoring; PDF pages are 1-based"
+    }
+  ],
+  "source_pages": [
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      102
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      115
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      133
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      146
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      171
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      182
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      208
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      222
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      302
+    ],
+    [
+      "数学分析中的典型问题与方法 (裴礼文).pdf",
+      483
+    ],
+    [
+      "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+      64
+    ],
+    [
+      "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+      73
+    ],
+    [
+      "裴礼文数学分析中的典型问题与方法第3版-习题解答.pdf",
+      81
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      154
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      169
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      175
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      225
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      231
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      248
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      266
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      320
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      332
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      366
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      508
+    ],
+    [
+      "高等代数第四版(复旦大学高代白皮书，学习指导书） (谢启鸿).pdf",
+      552
+    ]
+  ],
+  "author_policy": "80 manually authored queries from original PDF page images; no retrieval predictions viewed; source pages disjoint A/B; related queries share 26 source pages, not 80 independent topics; relevance incomplete; single-author internal test"
+}

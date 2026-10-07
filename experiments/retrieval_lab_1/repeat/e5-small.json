@@ -1,0 +1,15 @@
+{
+  "fresh_process": true,
+  "test_sha256": "359f8d4220cd6a9bd83560e91df67389f776068d13a8b7b8cbffdb8aec8c5667",
+  "results": {
+    "e5-small": {
+      "queries": 80,
+      "identical_top50": 80,
+      "differences": []
+    }
+  },
+  "time": 1790959265.0821369,
+  "rss_bytes": 748732416,
+  "peak_rss_bytes": 766455808,
+  "private_bytes": 1273270272
+}

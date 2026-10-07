@@ -1,0 +1,25 @@
+[
+  {
+    "reranker": "bge-reranker",
+    "short_pair_seconds": 0.016839724965393543,
+    "full_budget_pair_seconds": 0.2622237750329077,
+    "estimated_80queries_50candidates_repeated_seconds": 2097.790200263262,
+    "smoke_scores": [
+      4.470101356506348,
+      4.470101356506348,
+      4.470101356506348,
+      4.470101356506348
+    ],
+    "cold_seconds": 1.636129700113088
+  },
+  {
+    "reranker": "qwen-reranker",
+    "short_pair_seconds": 0.1936027999036014,
+    "full_budget_pair_seconds": 1.7431540000252426,
+    "estimated_80queries_50candidates_repeated_seconds": 13945.23200020194,
+    "smoke_scores": [
+      3.715677261352539
+    ],
+    "cold_seconds": 4.335274300072342
+  }
+]
